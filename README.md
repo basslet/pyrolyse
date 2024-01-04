@@ -1,4 +1,6 @@
-# pyrolyse
+# Pyrolyse Berechnungen
+
+Stand: 4. Januar 2024
 
 
 
