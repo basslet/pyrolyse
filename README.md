@@ -10,7 +10,6 @@ Stand: 4. Januar 2024
 - Während der Pyrolyse wird 30% des Kohlenstoffs in der Pflanzenkohle gebunden, 70% werden freigegeben (mit Sebastian besprechen)
 
 1 MW Strom:
-- 1MWh Strom durch Holzgas-Pyrolyse setzt 11.888 Tonnen CO2 frei. 
 - Um 1 MWh Strom zu erzeugen, werden etwa 9156,25 kg Holz benötigt.
 - Die Gesamtmenge des Kohlenstoffs in diesem Holz beträgt 4578,125 kg.
 - Davon werden 3242,23 kg Kohlenstoff (70,82% des gesamten Kohlenstoffs) als Holzgas freigesetzt, 1273kg werden in Pflanzenkohle gebunden.
