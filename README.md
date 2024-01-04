@@ -21,7 +21,6 @@ Zugrundeliegende Annahmen:
 - 1 Kubikmeter Holz wiegt je nach Baumart und Feuchtigkeitsgehalt zwischen 0,4 und 0,8 Tonnen. Wir nehmen einen Durchschnittswert von 0,6 Tonnen und einen Kohlenstoff Gehalt von 50%
 - Pflanzenkohle hat einen höheren Kohlenstoffgehalt, typischerweise etwa 70-80%
 - Zuwachs in Deutschen Wäldern liegt zwischen 8 und 12 Kobukmeter pro Hektar pro Jahr
-- 
 
 
 ### CO2 Gewicht ###
