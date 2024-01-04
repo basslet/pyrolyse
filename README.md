@@ -1,29 +1,9 @@
 # pyrolyse
 
-## CO2 Emmissionen bei der Stromproduktion eines Pyrolyse-BHKW ##
-
-Um die CO2-Emissionen bei der Stromproduktion eines Pyrolyse-Blockheizkraftwerks (BHKW) mit den angegebenen Spezifikationen zu berechnen, müssen wir zunächst die Kohlenstofffreisetzung aus dem verbrannten Holzgas ermitteln und diese dann in CO2-Emissionen umrechnen.
-
-1. **Kohlenstofffreisetzung aus dem Holzgas**:
-   - Basierend auf der vorherigen Berechnung, werden etwa 29,18% des Kohlenstoffs aus dem Holz in Pflanzenkohle gebunden. Das bedeutet, dass 70,82% des Kohlenstoffs in Form von Holzgas freigesetzt werden.
-   - Die Menge des Holzes ist 293 kg/h, und wir nehmen an, dass Holz zu etwa 50% aus Kohlenstoff besteht.
-
-2. **Umrechnung von Kohlenstoff in CO2**:
-   - Die Molekulargewichte von Kohlenstoff (C) und Sauerstoff (O) betragen 12 bzw. 16, daher hat CO2 ein Molekulargewicht von 44. Um die Menge des freigesetzten Kohlenstoffs in CO2 umzurechnen, verwenden wir den Faktor 44/12.
-
-3. **Berechnung der CO2-Emissionen pro MWh**:
-   - Die elektrische Nettoleistung des BHKW beträgt 32 kW, und der elektrische Wirkungsgrad ist 19%. Dies bedeutet, dass zur Erzeugung von 1 MWh Strom eine erhebliche Menge an Holz verbrannt werden muss.
-
-Zur Berechnung: https://github.com/basslet/pyrolyse/blob/main/co2_1mwh_pyrolyse.py
-
-Beginnen wir mit der Berechnung des Kohlenstoffgehalts im Holz und der daraus resultierenden CO2-Emissionen. Anschließend berechnen wir, wie viel CO2 pro erzeugter MWh Strom freigesetzt wird.
-
-Bei der Produktion von 1 MWh Strom durch ein Pyrolyse-Blockheizkraftwerk (BHKW) mit den angegebenen Spezifikationen entstehen ungefähr 11.888 kg CO2. 
-
-Diese Berechnung basiert auf der Annahme, dass 70,82% des Kohlenstoffs aus dem Holz freigesetzt werden und die elektrische Nettoleistung des BHKW 32 kW mit einem elektrischen Wirkungsgrad von 19% beträgt.
 
 
-## Hektar Forst ##
+
+## Holzzuwachs pro Hektar und Bedarf einer Pyrolyse BHKW (Beispiel Clinx 50) ##
 
 Die Menge des Holzes, die ein Wald nachhaltig produzieren kann, hängt von vielen Faktoren ab, darunter die Art des Waldes, die Baumarten, das Klima, die Bodenbeschaffenheit und die Waldbewirtschaftungspraktiken. Ein Schlüsselfaktor ist die sogenannte "Zuwachsrate", die angibt, wie viel Holz pro Jahr pro Hektar wächst.
 
@@ -66,8 +46,6 @@ Basierend auf den Berechnungen: https://github.com/basslet/pyrolyse/blob/main/ho
 
 Diese Werte zeigen die Menge an CO2, die durch den Holzzuwachs in Wäldern gebunden und gespeichert wird. Sie basieren auf der Annahme, dass 1 Kubikmeter Holz durchschnittlich 0,6 Tonnen wiegt und zu 50% aus Kohlenstoff besteht.
 
-
-
 ## Verhältnis von Kohlenstoff Bindung in Pflanzenkohle und freigesetzter Kohlenstoff ##
 
 Um zu berechnen, wie viel Prozent des Kohlenstoffs aus dem Holz in Form von Pflanzenkohle gebunden wird und wie viel in die Atmosphäre freigesetzt wird, müssen wir einige Annahmen über den Kohlenstoffgehalt des Holzes und der Pflanzenkohle treffen.
@@ -101,6 +79,32 @@ Und den Prozentsatz des in die Atmosphäre freigesetzten Kohlenstoffs:
 Die Berechnungen: https://github.com/basslet/pyrolyse/blob/main/kohlenstoff_bindung.py
 
 Aus den gegebenen Daten ergibt sich, dass etwa 29,18% des Kohlenstoffs aus dem Holz in Form von Pflanzenkohle gebunden werden. Die verbleibenden etwa 70,82% des Kohlenstoffs aus dem Holz werden freigesetzt, wahrscheinlich größtenteils in die Atmosphäre.
+
+
+
+
+## CO2 Emmissionen bei der Stromproduktion eines Pyrolyse-BHKW ##
+
+Um die CO2-Emissionen bei der Stromproduktion eines Pyrolyse-Blockheizkraftwerks (BHKW) mit den angegebenen Spezifikationen zu berechnen, müssen wir zunächst die Kohlenstofffreisetzung aus dem verbrannten Holzgas ermitteln und diese dann in CO2-Emissionen umrechnen.
+
+1. **Kohlenstofffreisetzung aus dem Holzgas**:
+   - Basierend auf der vorherigen Berechnung, werden etwa 29,18% des Kohlenstoffs aus dem Holz in Pflanzenkohle gebunden. Das bedeutet, dass 70,82% des Kohlenstoffs in Form von Holzgas freigesetzt werden.
+   - Die Menge des Holzes ist 293 kg/h, und wir nehmen an, dass Holz zu etwa 50% aus Kohlenstoff besteht.
+
+2. **Umrechnung von Kohlenstoff in CO2**:
+   - Die Molekulargewichte von Kohlenstoff (C) und Sauerstoff (O) betragen 12 bzw. 16, daher hat CO2 ein Molekulargewicht von 44. Um die Menge des freigesetzten Kohlenstoffs in CO2 umzurechnen, verwenden wir den Faktor 44/12.
+
+3. **Berechnung der CO2-Emissionen pro MWh**:
+   - Die elektrische Nettoleistung des BHKW beträgt 32 kW, und der elektrische Wirkungsgrad ist 19%. Dies bedeutet, dass zur Erzeugung von 1 MWh Strom eine erhebliche Menge an Holz verbrannt werden muss.
+
+Zur Berechnung: https://github.com/basslet/pyrolyse/blob/main/co2_1mwh_pyrolyse.py
+
+Beginnen wir mit der Berechnung des Kohlenstoffgehalts im Holz und der daraus resultierenden CO2-Emissionen. Anschließend berechnen wir, wie viel CO2 pro erzeugter MWh Strom freigesetzt wird.
+
+Bei der Produktion von 1 MWh Strom durch ein Pyrolyse-Blockheizkraftwerk (BHKW) mit den angegebenen Spezifikationen entstehen ungefähr 11.888 kg CO2. 
+
+Diese Berechnung basiert auf der Annahme, dass 70,82% des Kohlenstoffs aus dem Holz freigesetzt werden und die elektrische Nettoleistung des BHKW 32 kW mit einem elektrischen Wirkungsgrad von 19% beträgt.
+
 
 
 
