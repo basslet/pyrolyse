@@ -3,9 +3,24 @@
 Stand: 4. Januar 2024
 
 
+## Key Learnings ##
+
+- Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr
+- Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr
+
+- 30% des Kohlenstoffs wird in der Pflanzenkohle gebunden, 70% werden freigegeben (mit Sebastian besprechen)
+
+- 1MWh Strom durch Holzgas-Pyrolyse setzt 11.888 Tonnen CO2 frei. Erdgas/Erdöl setzt ca. 1 Tonne frei. Das liegt am höheren Energiewert fossiler Brennstoffe.
+- neben den 11.888 Tonnen CO2 werden 1273kg Kohlenstoff in Pflanzenkohle gebunden (Annahme: 70/30, siehe oben)
+
+### CO2 Gewicht ###
+CO2 ist ca. 4 mal schwerer als reiner Kohlenstoff: Die Molekulargewichte von Kohlenstoff (C) und Sauerstoff (O) betragen 12 bzw. 16. Daher hat CO2 (mit einem Kohlenstoff- und zwei Sauerstoffatomen) ein Molekulargewicht von 44. Um die Menge des gebundenen Kohlenstoffs in CO2 umzurechnen, verwenden wir den Faktor 44/12, da CO2 44/12 mal schwerer als reiner Kohlenstoff ist.
+
 
 
 ## Holzzuwachs pro Hektar und Bedarf einer Pyrolyse BHKW (Beispiel Clinx 50) ##
+
+Technische Daten ClinX 50: https://pyro-power.com/pyro-clinx-system/
 
 Die Menge des Holzes, die ein Wald nachhaltig produzieren kann, hängt von vielen Faktoren ab, darunter die Art des Waldes, die Baumarten, das Klima, die Bodenbeschaffenheit und die Waldbewirtschaftungspraktiken. Ein Schlüsselfaktor ist die sogenannte "Zuwachsrate", die angibt, wie viel Holz pro Jahr pro Hektar wächst.
 
