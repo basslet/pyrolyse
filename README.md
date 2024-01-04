@@ -22,6 +22,10 @@ Zugrundeliegende Annahmen:
 - Pflanzenkohle hat einen höheren Kohlenstoffgehalt, typischerweise etwa 70-80%
 - Zuwachs in Deutschen Wäldern liegt zwischen 8 und 12 Kobukmeter pro Hektar pro Jahr
 
+Grundsatzfragen:
+- Wieviel Holz steht realistisch für Pyrolyse zur Verfügung? Holz wird bereits für viele andere Bereiche (Möbel, Hausbau) eingesetzt
+- Wie realistisch ist es, die Anlagen zukünftig für ein breiteres Spektrum an Eingangsmaterial (Plastik, Reststoffe) einzusetzen?
+
 
 ### CO2 Gewicht ###
 CO2 ist ca. 4 mal schwerer als reiner Kohlenstoff: Die Molekulargewichte von Kohlenstoff (C) und Sauerstoff (O) betragen 12 bzw. 16. Daher hat CO2 (mit einem Kohlenstoff- und zwei Sauerstoffatomen) ein Molekulargewicht von 44. Um die Menge des gebundenen Kohlenstoffs in CO2 umzurechnen, verwenden wir den Faktor 44/12, da CO2 44/12 mal schwerer als reiner Kohlenstoff ist.
