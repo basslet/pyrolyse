@@ -135,7 +135,9 @@ Diese Berechnung basiert auf der Annahme, dass 70,82% des Kohlenstoffs aus dem H
 ## Vergleich: 1 MWh Strom durch fossile Energieträger ##
 
 Die Menge an CO2, die bei der Stromerzeugung durch fossile Energieträger wie Kohle oder Gas freigesetzt wird, variiert je nach Art des Brennstoffes und der Effizienz der Kraftwerke. Für Kohlekraftwerke liegen die spezifischen CO2-Emissionen im Durchschnitt bei etwa 1,049 Kilogramm CO2 pro Kilowattstunde (kWh) für Braunkohle und bei etwa 0,867 Kilogramm CO2 pro kWh für Steinkohle. Dies entspricht ungefähr 1,049 bis 1,173 Tonnen CO2 pro Megawattstunde (MWh) bei Braunkohle und 0,867 bis 0,939 Tonnen CO2 pro MWh bei Steinkohle. Bei Erdgaskraftwerken liegen die Emissionen deutlich niedriger, etwa zwischen 0,35 und 0,4 Tonnen CO2 pro MWh elektrisch. Diese Angaben sind Durchschnittswerte und können je nach spezifischer Technologie und Betriebsbedingungen variieren​
-
+- https://de.wikipedia.org/wiki/CO2-Emissionen_der_Stromerzeugung_nach_Art_der_Erzeugung
+- https://www.volker-quaschning.de/datserv/CO2-spez/index.php
+- https://www.ise.fraunhofer.de/de/presse-und-medien/news/2019/33-prozent-weniger-co2-emissionen-durch-brennstoffwechsel-von-kohle-auf-gas.html
 
 ## Überprüfung ##
 
