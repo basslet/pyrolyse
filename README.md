@@ -5,11 +5,9 @@ Stand: 4. Januar 2024
 
 ## Key Learnings ##
 
-- Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr
-- Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr
-
-- 30% des Kohlenstoffs wird in der Pflanzenkohle gebunden, 70% werden freigegeben (mit Sebastian besprechen)
-
+- Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr (293 kg/h bei 4 kWh/kg)
+- Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
+- Während der Pyrolyse wird 30% des Kohlenstoffs in der Pflanzenkohle gebunden, 70% werden freigegeben (mit Sebastian besprechen)
 - 1MWh Strom durch Holzgas-Pyrolyse setzt 11.888 Tonnen CO2 frei. Erdgas/Erdöl setzt ca. 1 Tonne frei. Das liegt am höheren Energiewert fossiler Brennstoffe.
 - neben den 11.888 Tonnen CO2 werden 1273kg Kohlenstoff in Pflanzenkohle gebunden (Annahme: 70/30, siehe oben)
 
