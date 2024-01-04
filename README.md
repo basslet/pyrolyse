@@ -14,7 +14,7 @@ Stand: 4. Januar 2024
 - Die Gesamtmenge des Kohlenstoffs in diesem Holz beträgt 4578,125 kg.
 - Davon werden 3242,23 kg Kohlenstoff (70,82% des gesamten Kohlenstoffs) als Holzgas freigesetzt, 1273kg werden in Pflanzenkohle gebunden.
 - Diese freigesetzte Kohlenstoffmenge entspricht CO2-Emissionen von etwa 11.888 kg (oder 11,888 Tonnen) pro MWh.
-- Im Vergleich erzeugt Erdgas/Erdöl ca. 1 Tonne CO2-Emissionen. Das liegt am höheren Energiewert fossiler Brennstoffe.
+- Im Vergleich erzeugt Erdgas/Erdöl ca. 1 Tonne CO2-Emissionen. 
 
 
 Zugrundeliegende Annahmen:
