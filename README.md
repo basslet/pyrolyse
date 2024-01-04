@@ -8,8 +8,22 @@ Stand: 4. Januar 2024
 - Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr (293 kg/h bei 4 kWh/kg)
 - Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
 - Während der Pyrolyse wird 30% des Kohlenstoffs in der Pflanzenkohle gebunden, 70% werden freigegeben (mit Sebastian besprechen)
-- 1MWh Strom durch Holzgas-Pyrolyse setzt 11.888 Tonnen CO2 frei. Erdgas/Erdöl setzt ca. 1 Tonne frei. Das liegt am höheren Energiewert fossiler Brennstoffe.
-- neben den 11.888 Tonnen CO2 werden 1273kg Kohlenstoff in Pflanzenkohle gebunden (Annahme: 70/30, siehe oben)
+
+1 MW Strom:
+- 1MWh Strom durch Holzgas-Pyrolyse setzt 11.888 Tonnen CO2 frei. 
+- Um 1 MWh Strom zu erzeugen, werden etwa 9156,25 kg Holz benötigt.
+- Die Gesamtmenge des Kohlenstoffs in diesem Holz beträgt 4578,125 kg.
+- Davon werden 3242,23 kg Kohlenstoff (70,82% des gesamten Kohlenstoffs) als Holzgas freigesetzt, 1273kg werden in Pflanzenkohle gebunden.
+- Diese freigesetzte Kohlenstoffmenge entspricht CO2-Emissionen von etwa 11.888 kg (oder 11,888 Tonnen) pro MWh.
+- Im Vergleich erzeugt Erdgas/Erdöl ca. 1 Tonne CO2-Emissionen. Das liegt am höheren Energiewert fossiler Brennstoffe.
+
+
+Zugrundeliegende Annahmen:
+- 1 Kubikmeter Holz wiegt je nach Baumart und Feuchtigkeitsgehalt zwischen 0,4 und 0,8 Tonnen. Wir nehmen einen Durchschnittswert von 0,6 Tonnen und einen Kohlenstoff Gehalt von 50%
+- Pflanzenkohle hat einen höheren Kohlenstoffgehalt, typischerweise etwa 70-80%
+- Zuwachs in Deutschen Wäldern liegt zwischen 8 und 12 Kobukmeter pro Hektar pro Jahr
+- 
+
 
 ### CO2 Gewicht ###
 CO2 ist ca. 4 mal schwerer als reiner Kohlenstoff: Die Molekulargewichte von Kohlenstoff (C) und Sauerstoff (O) betragen 12 bzw. 16. Daher hat CO2 (mit einem Kohlenstoff- und zwei Sauerstoffatomen) ein Molekulargewicht von 44. Um die Menge des gebundenen Kohlenstoffs in CO2 umzurechnen, verwenden wir den Faktor 44/12, da CO2 44/12 mal schwerer als reiner Kohlenstoff ist.
