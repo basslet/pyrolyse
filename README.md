@@ -163,11 +163,10 @@ Berechnung: https://github.com/basslet/pyrolyse/blob/main/ueberpruefung_co2_pro_
 
 Die Berechnung zeigt, dass trotz des relativ hohen Wirkungsgrades des Pyrolyseverfahrens bei der Umwandlung von Holz in Energie, immer noch eine erhebliche Menge an CO2 freigesetzt wird. Es ist wichtig zu betonen, dass diese Berechnung von spezifischen Annahmen und Durchschnittswerten ausgeht und die tatsächlichen Emissionen je nach der Effizienz des spezifischen Pyrolyse-Prozesses und den Eigenschaften des verwendeten Holzes variieren können.
 
-## Wie sinnvoll ist Pyrolyse ##
+## Pyrolyse für Carbon Removal ##
 
-Siehe dazu auch: https://www.worldfund.vc/knowledge/the-state-of-carbon-removal
+Siehe dazu auch [State of Carbon Removal](https://www.worldfund.vc/knowledge/the-state-of-carbon-removal)
 
-Fossile Energieträger wie Erdgas oder Kohle setzen im Vergleich zur Pyrolyse weniger CO2 pro KWh frei. Hier ist allerdings zu beachten, dass fossile Energieträger in der Erde gespeicherten Kohlenstoff freigeben und dem Kreislauf hinzufügen, während erneuerbare Energien (Biogas, Holz) den freigesetzten Kohlenstoff aus dem bestehenden Kreuslauf entnehmen.
+Fossile Energieträger wie Erdgas oder Kohle setzen im Vergleich zur Pyrolyse weniger CO2 pro KWh frei. Hier ist allerdings zu beachten, dass fossile Energieträger in der Erde gespeicherten Kohlenstoff freigeben und dem Kreislauf hinzufügen, während erneuerbare Energien (Biogas, Holz) den freigesetzten Kohlenstoff aus dem bestehenden Kreislauf entnehmen.
 
-Bei der Pyrolyse ist zu beachten, dass immerhin ca. 50% des Kohlenstoffs aus dem Holz auf lange Zeit in Form von Pflanzenkohle gebunden wird, und lediglich 50% des eingehenden Kohlenstoffs dem natürlichen Kreislauf zurück gegeben wird. Im Gegensatz dazu wird bei der Verbrennung fossilier Energieträger der gespeicherte Kohlenstoff dem bestehenden Kreislauf _hinzugefügt_.
-
+Bei der Pyrolyse ist zu beachten, dass immerhin ca. 50% des gespeicherten Kohlenstoffs aus dem Holz auf lange Zeit in Form von Pflanzenkohle gebunden wird, und lediglich 50% des eingehenden Kohlenstoffs dem natürlichen Kreislauf zurück gegeben wird. Es ist demnach CO2-negativ. Im Gegensatz dazu wird bei der Verbrennung fossilier Energieträger der gespeicherte Kohlenstoff dem bestehenden Kreislauf _hinzugefügt_.
