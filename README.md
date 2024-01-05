@@ -2,7 +2,6 @@
 
 Stand: 4. Januar 2024
 
-
 ## Key Learnings ##
 
 - Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr (293 kg/h bei 4 kWh/kg)
