@@ -15,4 +15,7 @@ zuwachsrate_pro_hektar_pro_jahr_kubikmeter = 10  # Kann je nach Waldtyp variiere
 # Benötigte Waldfläche in Hektar
 benoetigte_waldflaeche_hektar = jahresmenge_holz_kubikmeter / zuwachsrate_pro_hektar_pro_jahr_kubikmeter
 
-jahresmenge_holz_tonnen, jahresmenge_holz_kubikmeter, benoetigte_waldflaeche_hektar
+print(f'Jahresmenge Holz: {round(jahresmenge_holz_tonnen, 4)} t')
+print(f'Jahresmenge Holz: {round(jahresmenge_holz_kubikmeter, 1)} Kubikmeter')
+print(f'Benoetigte Waldflaeche: {round(benoetigte_waldflaeche_hektar, 1)} Hektar')
+

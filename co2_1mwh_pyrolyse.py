@@ -1,7 +1,7 @@
 # Defining the variables
 holzmenge_kg_h = 293  # Holzmenge in kg/h
 kohlenstoffgehalt_holz = 0.50  # Kohlenstoffgehalt im Holz (50%)
-freigesetzter_kohlenstoff_prozent = 70.82  # Prozentsatz des freigesetzten Kohlenstoffs (70,82%)
+freigesetzter_kohlenstoff_prozent = 50  # Prozentsatz des freigesetzten Kohlenstoffs (70,82%)
 
 # Umrechnung von Kohlenstoff in CO2
 molekulargewicht_c = 12  # Molekulargewicht von Kohlenstoff
@@ -20,4 +20,4 @@ elektrischer_wirkungsgrad = 0.19  # Elektrischer Wirkungsgrad (19%)
 stunden_pro_mwh = 1000 / elektrische_nettleistung_kw  # Anzahl der Stunden, um 1 MWh zu produzieren
 co2_emissionen_pro_mwh = co2_menge_kg_h * stunden_pro_mwh  # CO2-Emissionen pro MWh
 
-co2_emissionen_pro_mwh
+print(f'CO2 Emissionen pro MWh: {round(co2_emissionen_pro_mwh, 1)} kgh')

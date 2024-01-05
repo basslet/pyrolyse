@@ -23,4 +23,7 @@ def berechne_co2_bindung(zuwachs_pro_hektar_pro_jahr_kubikmeter):
 co2_bindung_szenario_1 = berechne_co2_bindung(zuwachs_pro_hektar_pro_jahr_kubikmeter_1)
 co2_bindung_szenario_2 = berechne_co2_bindung(zuwachs_pro_hektar_pro_jahr_kubikmeter_2)
 
-co2_bindung_szenario_1, co2_bindung_szenario_2
+
+print(f'Szenario 1 (8 KubikmZuwachs pro Hektar): {round(co2_bindung_szenario_1, 2)}')
+print(f'Szenario 2 (12 KubikmZuwachs pro Hektar): {round(co2_bindung_szenario_2, 2)}')
+
