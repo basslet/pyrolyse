@@ -6,20 +6,20 @@ Stand: 4. Januar 2024
 
 - Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr (293 kg/h bei 4 kWh/kg)
 - Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
-- Während der Pyrolyse wird 30% des Kohlenstoffs in der Pflanzenkohle gebunden, 70% werden freigegeben (mit Sebastian besprechen)
+- Während der Pyrolyse wird 50% des Kohlenstoffs in der Pflanzenkohle gebunden, die restlichen 50% werden freigegeben
 
 1 MW Strom:
 - Um 1 MWh Strom zu erzeugen, werden etwa 9156,25 kg Holz benötigt.
 - Die Gesamtmenge des Kohlenstoffs in diesem Holz beträgt 4578,125 kg.
-- Davon werden 3242,23 kg Kohlenstoff (70,82% des gesamten Kohlenstoffs) als Holzgas freigesetzt, 1273kg werden in Pflanzenkohle gebunden.
-- Diese freigesetzte Kohlenstoffmenge entspricht CO2-Emissionen von etwa 11.888 kg (oder 11,888 Tonnen) pro MWh.
+- Davon werden 2223,7 kg Kohlenstoff (48,6% des gesamten Kohlenstoffs) als Holzgas freigesetzt.
+- Diese freigesetzte Kohlenstoffmenge entspricht CO2-Emissionen von etwa 8153 kg pro MWh.
 - Im Vergleich erzeugt Kohle ca. 1 Tonne CO2-Emissionen, Erdgas lediglich 0,4 Tonnen CO2.
 
 
 Zugrundeliegende Annahmen:
 - 1 Kubikmeter Holz wiegt je nach Baumart und Feuchtigkeitsgehalt zwischen 0,4 und 0,8 Tonnen. Wir nehmen einen Durchschnittswert von 0,6 Tonnen und einen Kohlenstoff Gehalt von 50%
-- Pflanzenkohle hat einen höheren Kohlenstoffgehalt, typischerweise etwa 70-80%
-- Zuwachs in Deutschen Wäldern liegt zwischen 8 und 12 Kobukmeter pro Hektar pro Jahr
+- Pflanzenkohle hat einen höheren Kohlenstoffgehalt, typischerweise etwa 90%
+- Zuwachs in Deutschen Wäldern liegt zwischen 8 und 12 Kubikmeter pro Hektar pro Jahr
 
 Grundsatzfragen:
 - Wieviel Holz steht realistisch für Pyrolyse zur Verfügung? Holz wird bereits für viele andere Bereiche (Möbel, Hausbau) eingesetzt
@@ -46,7 +46,7 @@ Um die notwendige Waldfläche für eine nachhaltige Produktion von 50 Tonnen Hol
 
 Ein Kubikmeter Holz wiegt je nach Baumart und Feuchtigkeitsgehalt zwischen 0,4 und 0,8 Tonnen. Ich werde eine durchschnittliche Dichte von 0,6 Tonnen pro Kubikmeter für die Berechnung verwenden. Lassen Sie uns diese Berechnungen durchführen.
 
-Um nachhaltig 50 Tonnen Holz pro Woche zu erforsten, benötigt man unter den Annahmen einer durchschnittlichen Holzdichte von 0,6 Tonnen pro Kubikmeter und einer Zuwachsrate von 10 Kubikmetern pro Hektar pro Jahr etwa 433 Hektar Wald. 
+Um nachhaltig 50 Tonnen Holz pro Woche zu erforsten, benötigt man unter den Annahmen einer durchschnittlichen Holzdichte von 0,6 Tonnen pro Kubikmeter und einer Zuwachsrate von 10 Kubikmetern pro Hektar pro Jahr etwa 433 Hektar Wald.
 
 Hier ist die Berechnung: https://github.com/basslet/pyrolyse/blob/main/hektar_forst.py
 
@@ -82,7 +82,7 @@ Um zu berechnen, wie viel Prozent des Kohlenstoffs aus dem Holz in Form von Pfla
 
 1. **Kohlenstoffgehalt des Holzes**: Holz besteht typischerweise zu etwa 50% aus Kohlenstoff. Dieser Wert kann je nach Holzart leicht variieren.
 
-2. **Kohlenstoffgehalt der Pflanzenkohle**: Pflanzenkohle hat einen höheren Kohlenstoffgehalt, typischerweise etwa 70-80%.
+2. **Kohlenstoffgehalt der Pflanzenkohle**: Pflanzenkohle hat einen höheren Kohlenstoffgehalt, typischerweise etwa 90%.
 
 Mit diesen Annahmen können wir den Kohlenstoffgehalt im Eingangsmaterial (Holz) und im Ausgangsmaterial (Pflanzenkohle) berechnen und daraus ableiten, wie viel Prozent des Kohlenstoffs gebunden bzw. freigesetzt wird.
 
@@ -95,8 +95,8 @@ Zuerst berechnen wir den Kohlenstoffgehalt im Holz:
 Dann berechnen wir den Kohlenstoffgehalt in der Pflanzenkohle:
 
 - Pflanzenkohlenmenge: 57 kg/h
-- Kohlenstoffgehalt in der Pflanzenkohle: angenommen 75%
-- Kohlenstoff in der Pflanzenkohle: 57 kg/h * 75% = 42,75 kg/h
+- Kohlenstoffgehalt in der Pflanzenkohle: angenommen 90%
+- Kohlenstoff in der Pflanzenkohle: 57 kg/h * 90% = 51,3 kg/h
 
 Nun können wir den Prozentsatz des in der Pflanzenkohle gebundenen Kohlenstoffs berechnen:
 
@@ -108,7 +108,7 @@ Und den Prozentsatz des in die Atmosphäre freigesetzten Kohlenstoffs:
 
 Die Berechnungen: https://github.com/basslet/pyrolyse/blob/main/kohlenstoff_bindung.py
 
-Aus den gegebenen Daten ergibt sich, dass etwa 29,18% des Kohlenstoffs aus dem Holz in Form von Pflanzenkohle gebunden werden. Die verbleibenden etwa 70,82% des Kohlenstoffs aus dem Holz werden freigesetzt, wahrscheinlich größtenteils in die Atmosphäre.
+Aus den gegebenen Daten ergibt sich, dass etwa 50% des Kohlenstoffs aus dem Holz in Form von Pflanzenkohle gebunden werden. Die verbleibenden 50% des Kohlenstoffs aus dem Holz werden freigesetzt, wahrscheinlich größtenteils in die Atmosphäre.
 
 
 
@@ -118,7 +118,7 @@ Aus den gegebenen Daten ergibt sich, dass etwa 29,18% des Kohlenstoffs aus dem H
 Um die CO2-Emissionen bei der Stromproduktion eines Pyrolyse-Blockheizkraftwerks (BHKW) mit den angegebenen Spezifikationen zu berechnen, müssen wir zunächst die Kohlenstofffreisetzung aus dem verbrannten Holzgas ermitteln und diese dann in CO2-Emissionen umrechnen.
 
 1. **Kohlenstofffreisetzung aus dem Holzgas**:
-   - Basierend auf der vorherigen Berechnung, werden etwa 29,18% des Kohlenstoffs aus dem Holz in Pflanzenkohle gebunden. Das bedeutet, dass 70,82% des Kohlenstoffs in Form von Holzgas freigesetzt werden.
+   - Basierend auf der vorherigen Berechnung, werden etwa 50% des Kohlenstoffs aus dem Holz in Pflanzenkohle gebunden. Das bedeutet, dass 50% des Kohlenstoffs in Form von Holzgas freigesetzt werden.
    - Die Menge des Holzes ist 293 kg/h, und wir nehmen an, dass Holz zu etwa 50% aus Kohlenstoff besteht.
 
 2. **Umrechnung von Kohlenstoff in CO2**:
@@ -131,9 +131,9 @@ Zur Berechnung: https://github.com/basslet/pyrolyse/blob/main/co2_1mwh_pyrolyse.
 
 Beginnen wir mit der Berechnung des Kohlenstoffgehalts im Holz und der daraus resultierenden CO2-Emissionen. Anschließend berechnen wir, wie viel CO2 pro erzeugter MWh Strom freigesetzt wird.
 
-Bei der Produktion von 1 MWh Strom durch ein Pyrolyse-Blockheizkraftwerk (BHKW) mit den angegebenen Spezifikationen entstehen ungefähr 11.888 kg CO2. 
+Bei der Produktion von 1 MWh Strom durch ein Pyrolyse-Blockheizkraftwerk (BHKW) mit den angegebenen Spezifikationen entstehen ungefähr 8153 kg CO2.
 
-Diese Berechnung basiert auf der Annahme, dass 70,82% des Kohlenstoffs aus dem Holz freigesetzt werden und die elektrische Nettoleistung des BHKW 32 kW mit einem elektrischen Wirkungsgrad von 19% beträgt.
+Diese Berechnung basiert auf der Annahme, dass 50% des Kohlenstoffs aus dem Holz freigesetzt werden und die elektrische Nettoleistung des BHKW 32 kW mit einem elektrischen Wirkungsgrad von 19% beträgt.
 
 ## Vergleich: 1 MWh Strom durch fossile Energieträger ##
 
@@ -156,10 +156,13 @@ Nach der Überprüfung und Korrektur der Berechnungen erhalten wir die folgenden
 
 - Um 1 MWh Strom zu erzeugen, werden etwa 9156,25 kg Holz benötigt.
 - Die Gesamtmenge des Kohlenstoffs in diesem Holz beträgt 4578,125 kg.
-- Davon werden 3242,23 kg Kohlenstoff (70,82% des gesamten Kohlenstoffs) als Holzgas freigesetzt.
-- Diese freigesetzte Kohlenstoffmenge entspricht CO2-Emissionen von etwa 11.888 kg (oder 11,888 Tonnen) pro MWh.
+- Davon werden 2223,7 kg Kohlenstoff (50% des gesamten Kohlenstoffs) als Holzgas freigesetzt.
+- Diese freigesetzte Kohlenstoffmenge entspricht CO2-Emissionen von etwa 8153 kg pro MWh.
 
 Berechnung: https://github.com/basslet/pyrolyse/blob/main/ueberpruefung_co2_pro_mwh.py
 
 Die Berechnung zeigt, dass trotz des relativ hohen Wirkungsgrades des Pyrolyseverfahrens bei der Umwandlung von Holz in Energie, immer noch eine erhebliche Menge an CO2 freigesetzt wird. Es ist wichtig zu betonen, dass diese Berechnung von spezifischen Annahmen und Durchschnittswerten ausgeht und die tatsächlichen Emissionen je nach der Effizienz des spezifischen Pyrolyse-Prozesses und den Eigenschaften des verwendeten Holzes variieren können.
 
+Weiterhin ist zu beachten, dass immerhin 50% des Kohlenstoffs im Holz auf lange Zeit in Form von Pflanzenkohle gespeichert wird, während der freigesetzte Kohlenstoff aus dem natürlichen Kreislauf stammt. Im Gegensatz dazu wird bei der Verbrennung fossilier Energieträger der gespeicherte CO2 _zusätzlich_ dem Kreislauf hinzugefügt.
+
+Pyrolyse ist demnach ein Prozess, der neben der Energiegewinnung Kohlenstoff aus dem Kreislauf entfernt und langfristig in Pflanzenkohle bindet.

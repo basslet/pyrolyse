@@ -26,3 +26,4 @@ def berechne_kohlenstoff_bindung(ratio=3.5):
     print(f'Freigesetzter Kohlenstoff: {round(freigesetzter_kohlenstoff_prozent, 1)} %')
     return gebundener_kohlenstoff_prozent, freigesetzter_kohlenstoff_prozent
 
+berechne_kohlenstoff_bindung()
