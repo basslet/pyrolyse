@@ -8,7 +8,7 @@ Stand: 5. Januar 2024
 - Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
 - Während der Pyrolyse wird 50% des Kohlenstoffs in der Pflanzenkohle gebunden, die restlichen 50% werden freigegeben
 
-1 MW Strom:
+**1 MW Strom:**
 - Um 1 MWh Strom zu erzeugen, werden etwa 9156,25 kg Holz benötigt.
 - Die Gesamtmenge des Kohlenstoffs in diesem Holz beträgt 4578,125 kg.
 - Davon werden 2223,7 kg Kohlenstoff (48,6% des gesamten Kohlenstoffs) als Holzgas freigesetzt.
@@ -16,12 +16,12 @@ Stand: 5. Januar 2024
 - Im Vergleich erzeugt Kohle ca. 1 Tonne CO2-Emissionen, Erdgas lediglich 0,4 Tonnen CO2 (siehe dazu Notiz am Ende)
 
 
-Zugrundeliegende Annahmen:
+**Zugrundeliegende Annahmen:**
 - 1 Kubikmeter Holz wiegt je nach Baumart und Feuchtigkeitsgehalt zwischen 0,4 und 0,8 Tonnen. Wir nehmen einen Durchschnittswert von 0,6 Tonnen und einen Kohlenstoff Gehalt von 50%
 - Pflanzenkohle hat einen höheren Kohlenstoffgehalt, typischerweise etwa 90%
 - Zuwachs in Deutschen Wäldern liegt zwischen 8 und 12 Kubikmeter pro Hektar pro Jahr
 
-Grundsatzfragen:
+**Grundsatzfragen:**
 - Wieviel Holz steht realistisch für Pyrolyse zur Verfügung? Holz wird bereits für viele andere Bereiche (Möbel, Hausbau) eingesetzt
 - Wie realistisch ist es, die Anlagen zukünftig für ein breiteres Spektrum an Eingangsmaterial (Plastik, Reststoffe) einzusetzen?
 
