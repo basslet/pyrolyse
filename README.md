@@ -169,5 +169,5 @@ Siehe dazu auch: https://www.worldfund.vc/knowledge/the-state-of-carbon-removal
 
 Fossile Energieträger wie Erdgas oder Kohle setzen im Vergleich zur Pyrolyse weniger CO2 pro KWh frei. Hier ist allerdings zu beachten, dass fossile Energieträger in der Erde gespeicherten Kohlenstoff freigeben und dem Kreislauf hinzufügen, während erneuerbare Energien (Biogas, Holz) den freigesetzten Kohlenstoff aus dem bestehenden Kreuslauf entnehmen.
 
-Bei der Pyrolyse ist zu beachten, dass immerhin ca. 50% des Kohlenstoffs aus dem Holz auf lange Zeit in Form von Pflanzenkohle gebunden wird, und lediglich 50% des eingehenden Kohlenstoffs dem natürlichen Kreislauf zurück gegeben wird. Im Gegensatz dazu wird bei der Verbrennung fossilier Energieträger der gespeicherte CO2 dem bestehenden Kreislauf _hinzugefügt_.
+Bei der Pyrolyse ist zu beachten, dass immerhin ca. 50% des Kohlenstoffs aus dem Holz auf lange Zeit in Form von Pflanzenkohle gebunden wird, und lediglich 50% des eingehenden Kohlenstoffs dem natürlichen Kreislauf zurück gegeben wird. Im Gegensatz dazu wird bei der Verbrennung fossilier Energieträger der gespeicherte Kohlenstoff dem bestehenden Kreislauf _hinzugefügt_.
 
