@@ -6,7 +6,7 @@ Stand: 5. Januar 2024
 
 - Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr (293 kg/h bei 4 kWh/kg)
 - Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
-- Während der Pyrolyse wird 50% des Kohlenstoffs in der Pflanzenkohle gebunden, die restlichen 50% werden freigegeben
+- Während der Pyrolyse wird 50% des Kohlenstoffs in der Pflanzenkohle gebunden, die restlichen 50% werden wieder freigegeben
 
 **Verbrauch und Emissionen für 1 MWh Strom:**
 - Um 1 MWh Strom zu erzeugen, werden etwa 9156,25 kg Holz benötigt.
