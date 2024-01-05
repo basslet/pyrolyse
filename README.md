@@ -8,7 +8,7 @@ Stand: 5. Januar 2024
 - Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
 - Während der Pyrolyse wird 50% des Kohlenstoffs in der Pflanzenkohle gebunden, die restlichen 50% werden freigegeben
 
-**1 MW Strom:**
+**Verbrauch und Emissionen für 1 MWh Strom:**
 - Um 1 MWh Strom zu erzeugen, werden etwa 9156,25 kg Holz benötigt.
 - Die Gesamtmenge des Kohlenstoffs in diesem Holz beträgt 4578,125 kg.
 - Davon werden 2223,7 kg Kohlenstoff (48,6% des gesamten Kohlenstoffs) als Holzgas freigesetzt.
