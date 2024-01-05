@@ -163,6 +163,11 @@ Berechnung: https://github.com/basslet/pyrolyse/blob/main/ueberpruefung_co2_pro_
 
 Die Berechnung zeigt, dass trotz des relativ hohen Wirkungsgrades des Pyrolyseverfahrens bei der Umwandlung von Holz in Energie, immer noch eine erhebliche Menge an CO2 freigesetzt wird. Es ist wichtig zu betonen, dass diese Berechnung von spezifischen Annahmen und Durchschnittswerten ausgeht und die tatsächlichen Emissionen je nach der Effizienz des spezifischen Pyrolyse-Prozesses und den Eigenschaften des verwendeten Holzes variieren können.
 
-Weiterhin ist zu beachten, dass immerhin 50% des Kohlenstoffs im Holz auf lange Zeit in Form von Pflanzenkohle gespeichert wird, während der freigesetzte Kohlenstoff aus dem natürlichen Kreislauf stammt. Im Gegensatz dazu wird bei der Verbrennung fossilier Energieträger der gespeicherte CO2 _zusätzlich_ dem Kreislauf hinzugefügt.
+## Wie sinnvoll ist Pyrolyse ##
 
-Pyrolyse ist demnach ein Prozess, der neben der Energiegewinnung Kohlenstoff aus dem Kreislauf entfernt und langfristig in Pflanzenkohle bindet.
+Siehe dazu auch: https://www.worldfund.vc/knowledge/the-state-of-carbon-removal
+
+Fossile Energieträger wie Erdgas oder Kohle setzen im Vergleich zur Pyrolyse weniger CO2 pro KWh frei. Hier ist allerdings zu beachten, dass fossile Energieträger in der Erde gespeicherten Kohlenstoff freigeben und dem Kreislauf hinzufügen, während erneuerbare Energien (Biogas, Holz) den freigesetzten Kohlenstoff aus dem bestehenden Kreuslauf entnehmen.
+
+Bei der Pyrolyse ist zu beachten, dass immerhin ca. 50% des Kohlenstoffs aus dem Holz auf lange Zeit in Form von Pflanzenkohle gebunden wird, und lediglich 50% des eingehenden Kohlenstoffs dem natürlichen Kreislauf zurück gegeben wird. Im Gegensatz dazu wird bei der Verbrennung fossilier Energieträger der gespeicherte CO2 dem bestehenden Kreislauf _hinzugefügt_.
+
