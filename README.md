@@ -31,7 +31,7 @@ CO2 ist ca. 4 mal schwerer als reiner Kohlenstoff: Die Molekulargewichte von Koh
 
 
 
-1. [Pyrolyse und Kohlenstoff Grundlagen Berechnung](./pyrolyse_de:md)
+1. [Pyrolyse und Kohlenstoff Grundlagen Berechnung](./pyrolyse_de.md)
 2. Carbon Removal - Vergleichsberechnung [wip]
 3. Problemstellung [wip]
 - Kohlenstoffentfernung
