@@ -4,7 +4,7 @@ Stand: 5. Januar 2024
 
 
 ## Übersicht ##
-1. [Einleitung Pyrolyse](./README.md#pyrolyse_zusammenfassung)
+1. [Einleitung Pyrolyse](./README.md#einleitung-pyrolyse)
 2. [Meine Learnings](./README.md#meine-learnings-zur-pyrolyse)
 2. [Grundlegende Annahmen und Variablen](./annahmen_und_variablen.md)
 3. [Pyrolyse und Kohlenstoff Grundlagen Berechnung](./pyrolyse_de.md)
@@ -16,7 +16,7 @@ Stand: 5. Januar 2024
 
 
 
-## Pyrolyse Zusammenfassung ##
+## Einleitung Pyrolyse ##
 Pyrolyse ist ein thermochemischer Prozess, bei dem Biomasse wie Holz in Abwesenheit von Sauerstoff erhitzt wird. Dieser Prozess führt zur Zersetzung des Materials und zur Erzeugung von Pyrolysegas, Teer und Pflanzenkohle. Pyrolysegas kann als Brennstoff zur Energiegewinnung genutzt werden, während Pflanzenkohle Kohlenstoff bindet und als Bodenverbesserer eingesetzt werden kann. Pyrolyse trägt zur Verringerung von CO2-Emissionen bei, indem sie fossile Brennstoffe ersetzt und Kohlenstoff in Form von Pflanzenkohle speichert.
 
 ## Wie funktioniert eine Pyrolyse Anlage ##
