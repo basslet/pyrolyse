@@ -26,11 +26,11 @@ Pyrolyse ist ein thermochemischer Prozess, bei dem Biomasse wie Holz in Abwesenh
 
 ## Warum ist Pyrolyse spannend? ##
 
-Pyrolyse erscheint die einzige Carbon Removal Methode zu sein, die sowohl Energie (Kraft-Wärme-Kopplung) freigibt, als auch Kohlenstoff in fester Form bindet. Da Pyrolyse Energie aus Biomasse generiert, wird demnach kein neuer Kohlenstoff in den CO2 Kreislauf gegeben, sondern durch die Bindung wird CO2 reduziert.
+Pyrolyse gilt als eine der wenigen Carbon-Removal-Methoden, die Energie durch Kraft-Wärme-Kopplung freisetzt und gleichzeitig Kohlenstoff in fester Form bindet. Da Pyrolyse Energie aus Biomasse gewinnt, führt sie keinen neuen Kohlenstoff in den CO2-Kreislauf ein. Stattdessen trägt sie zur CO2-Reduzierung bei, indem sie Kohlenstoff in Pflanzenkohle bindet.
 
-Pyrolyse Anlagen ammortisieren sich durch
+Pyrolyse-Anlagen können sich durch verschiedene Wege amortisieren:
 - Verkauf von Energie (Strom und Wärme)
-- Handeln von generierten CO2 Zertifikaten
+- Handel mit generierten CO2-Zertifikaten
 - Verkauf von Pflanzenkohle
 
 ## Was sind die Herausforderungen bei Pyrolyse  ##
@@ -73,5 +73,5 @@ CO2 ist ca. 4 mal schwerer als reiner Kohlenstoff: Die Molekulargewichte von Koh
 
 
 
-Bei der Pyrolyse ist zu beachten, dass immerhin ca. 50% des gespeicherten Kohlenstoffs aus dem Holz auf lange Zeit in Form von Pflanzenkohle gebunden wird, und lediglich 50% des eingehenden Kohlenstoffs dem natürlichen Kreislauf zurück gegeben wird. Der Prozess ist demnach CO2-negativ, da CO2 aus dem Kreislauf entnommen und gebunden wird. Biogas und klassische BHKW sind CO2-neutral, während bei der Verbrennung fossilier Energieträger der gespeicherte Kohlenstoff dem bestehenden Kreislauf _hinzugefügt_ wird.
+Beim Pyrolyseprozess ist hervorzuheben, dass etwa 50% des im Holz gespeicherten Kohlenstoffs dauerhaft in Form von Pflanzenkohle gebunden werden. Damit wird nur die Hälfte des ursprünglichen Kohlenstoffs an den natürlichen Kreislauf zurückgegeben. Dies macht den Prozess effektiv CO2-negativ, da CO2 aktiv aus dem Kreislauf entfernt und gespeichert wird. Im Gegensatz dazu gelten Biogas und konventionelle Blockheizkraftwerke (BHKW) als CO2-neutral, da sie keinen zusätzlichen Kohlenstoff in den Kreislauf einführen. Bei der Verbrennung fossiler Energieträger hingegen wird gespeicherter Kohlenstoff freigesetzt und damit dem bestehenden CO2-Kreislauf hinzugefügt.
 
