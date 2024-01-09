@@ -29,9 +29,9 @@ Pyrolyse ist ein thermochemischer Prozess, bei dem Biomasse wie Holz in Abwesenh
 Pyrolyse erscheint die einzige Carbon Removal Methode zu sein, die sowohl Energie (Kraft-Wärme-Kopplung) freigibt, als auch Kohlenstoff in fester Form bindet. Da Pyrolyse Energie aus Biomasse generiert, wird demnach kein neuer Kohlenstoff in den CO2 Kreislauf gegeben, sondern durch die Bindung wird CO2 reduziert.
 
 Pyrolyse Anlagen ammortisieren sich durch
-- Verkauf von Energie
-- CO2 Zertifikate
-- Pflanzenkohle
+- Verkauf von Energie (Strom und Wärme)
+- Handeln von generierten CO2 Zertifikaten
+- Verkauf von Pflanzenkohle
 
 ## Was sind die Herausforderungen bei Pyrolyse  ##
 
