@@ -1,6 +1,20 @@
-# Pyrolyse Berechnungen
+# Pyrolyse Berechnungen #
 
 Stand: 5. Januar 2024
+
+
+## Übersicht ##
+1. [Einleitung Pyrolyse](./README.md#pyrolyse_zusammenfassung)
+2. [Meine Learnings]((./README.md#learnings))
+2. [Grundlegende Annahmen und Variablen](./annahmen_und_variablen.md)
+3. [Pyrolyse und Kohlenstoff Grundlagen Berechnung](./pyrolyse_de.md)
+4. Carbon Removal - [Beispielrechnung 1000 dezentrale Anlagen](./beispielrechnung_1000_anlagen.md)
+5. [Vergleich zu alternativen EEGs](./alternative_eegs.md) (wip)
+6. Problemstellung [wip]
+- Kohlenstoffentfernung
+- Anlageneffizienz
+
+
 
 ## Pyrolyse Zusammenfassung ##
 Pyrolyse ist ein thermochemischer Prozess, bei dem Biomasse wie Holz in Abwesenheit von Sauerstoff erhitzt wird. Dieser Prozess führt zur Zersetzung des Materials und zur Erzeugung von Pyrolysegas, Teer und Pflanzenkohle. Pyrolysegas kann als Brennstoff zur Energiegewinnung genutzt werden, während Pflanzenkohle Kohlenstoff bindet und als Bodenverbesserer eingesetzt werden kann. Pyrolyse trägt zur Verringerung von CO2-Emissionen bei, indem sie fossile Brennstoffe ersetzt und Kohlenstoff in Form von Pflanzenkohle speichert.
@@ -10,9 +24,9 @@ Pyrolyse ist ein thermochemischer Prozess, bei dem Biomasse wie Holz in Abwesenh
 - [Video zu Funktionsweise](https://youtu.be/BOpEtUhSWm0)
 - [Referenz Anlage Clinx 50](https://pyro-power.com/pyro-clinx-system/)
 
-## Warum finde ich Pyrolyse spannend? ##
+## Warum ist Pyrolyse spannend? ##
 
-Pyrolyse scheint die einzige Carbon Removal Methode zu sein, die sowohl Energie (Kraft-Wärme-Kopplung) freigibt, als auch Kohlenstoff in fester Form bindet. Da Pyrolyse aus Biomasse generiert, wird demnach kein neuer Kohlenstoff in den CO2 Kreislauf gegeben, sondern durch die Bindung wird CO2 reduziert.
+Pyrolyse erscheint die einzige Carbon Removal Methode zu sein, die sowohl Energie (Kraft-Wärme-Kopplung) freigibt, als auch Kohlenstoff in fester Form bindet. Da Pyrolyse Energie aus Biomasse generiert, wird demnach kein neuer Kohlenstoff in den CO2 Kreislauf gegeben, sondern durch die Bindung wird CO2 reduziert.
 
 Pyrolyse Anlagen ammortisieren sich durch
 - Verkauf von Energie
@@ -23,6 +37,7 @@ Pyrolyse Anlagen ammortisieren sich durch
 
 - hohe technische Anforderungen
 - Biomasse erfordert dezentralen Einsatz, dadurch geringerer Wirkungsgrad als große Kraftwerke
+- größere Menge an Eingangsmaterial ggü Kohle oder Erdgas, da der Energiegehalt in Holz niedriger ist als fossile Brennstoffe
 
 ## Meine Learnings zur Pyrolyse ##
 
@@ -53,12 +68,7 @@ Pyrolyse Anlagen ammortisieren sich durch
 CO2 ist ca. 4 mal schwerer als reiner Kohlenstoff: Die Molekulargewichte von Kohlenstoff (C) und Sauerstoff (O) betragen 12 bzw. 16. Daher hat CO2 (mit einem Kohlenstoff- und zwei Sauerstoffatomen) ein Molekulargewicht von 44. Um die Menge des gebundenen Kohlenstoffs in CO2 umzurechnen, verwenden wir den Faktor 44/12, da CO2 44/12 mal schwerer als reiner Kohlenstoff ist.
 
 
-0. [Grundlegende Annahmen und Variablen](./annahmen_und_variablen.md)
-1. [Pyrolyse und Kohlenstoff Grundlagen Berechnung](./pyrolyse_de.md)
-2. Carbon Removal - [Beispielrechnung 1000 dezentrale Anlagen](./beispielrechnung_1000_anlagen.md)
-3. Problemstellung [wip]
-- Kohlenstoffentfernung
-- Anlageneffizienz
+
 
 
 

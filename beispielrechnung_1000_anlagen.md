@@ -22,7 +22,7 @@ Um die jährliche CO2-Einsparung beim Betrieb von 1000 Pyrolyse-Anlagen zu berec
    - Gesamteinsparung pro Pyrolyse Anlage * 1000
 
 
-Diese Berechnung gibt eine Schätzung der CO2-Einsparung, basierend auf den Emissionen von Pyrolyse-Anlagen im Vergleich zu Braunkohlekraftwerken: [beispiel_1000_anlagen.py](./beispiel_1000_anlagen.py)
+Diese Berechnung gibt eine Schätzung der CO2-Einsparung, basierend auf den Emissionen von Pyrolyse-Anlagen im Vergleich zu Braunkohlekraftwerken: [beispiel_1000_anlagen.py](code/beispiel_1000_anlagen.py)
 
 - **Gesamte jährlichen CO2 Einsparung**: 4,253,645.76 t
 - **Gesamter jährlicher Holzberbrauch**: 2,566,695,768.0 t
