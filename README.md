@@ -42,7 +42,7 @@ Pyrolyse Anlagen ammortisieren sich durch
 ## Meine Learnings zur Pyrolyse ##
 
 - Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr (293 kg/h bei 4 kWh/kg)
-- Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
+- Benötigte Waldfläche für nachhaltige Gewinnung: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
 
 - Während der Pyrolyse wird 50% des Kohlenstoffs in der Pflanzenkohle gebunden, die restlichen 50% werden wieder freigegeben
 - Diese Anlage liefert 32 kWh Strom (netto) und 150 kWh Wärme
@@ -62,6 +62,7 @@ Pyrolyse Anlagen ammortisieren sich durch
 
 **Grundsatzfragen:**
 - Wieviel Holz steht realistisch für Pyrolyse zur Verfügung? Holz wird bereits für viele andere Bereiche (Möbel, Hausbau) eingesetzt
+  - Der Deutsche Forstbestand nimmt zu - wieviel kg Holz stehen zur Energiegewinnung zur Verfügung
 - Wie realistisch ist es, die Anlagen zukünftig für ein breiteres Spektrum an Eingangsmaterial (Plastik, Reststoffe) einzusetzen?
 
 
