@@ -13,7 +13,7 @@ Stand: 5. Januar 2024
 6. Problemstellung [wip]
 - Kohlenstoffentfernung
 - Anlageneffizienz
-
+7. Flottenmodell [wip]
 
 
 ## Einleitung Pyrolyse ##
@@ -35,7 +35,7 @@ Pyrolyse Anlagen ammortisieren sich durch
 
 ## Was sind die Herausforderungen bei Pyrolyse  ##
 
-- hohe technische Anforderungen
+- hohe technische Anforderungen für einen reibungslosen Betrieb
 - Biomasse erfordert dezentralen Einsatz, dadurch geringerer Wirkungsgrad als große Kraftwerke
 - größere Menge an Eingangsmaterial ggü Kohle oder Erdgas, da der Energiegehalt in Holz niedriger ist als fossile Brennstoffe
 
@@ -67,7 +67,6 @@ Pyrolyse Anlagen ammortisieren sich durch
 
 ### CO2 Gewicht ###
 CO2 ist ca. 4 mal schwerer als reiner Kohlenstoff: Die Molekulargewichte von Kohlenstoff (C) und Sauerstoff (O) betragen 12 bzw. 16. Daher hat CO2 (mit einem Kohlenstoff- und zwei Sauerstoffatomen) ein Molekulargewicht von 44. Um die Menge des gebundenen Kohlenstoffs in CO2 umzurechnen, verwenden wir den Faktor 44/12, da CO2 44/12 mal schwerer als reiner Kohlenstoff ist.
-
 
 
 
