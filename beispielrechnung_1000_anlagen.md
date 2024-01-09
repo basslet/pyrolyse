@@ -9,7 +9,8 @@ Um die jährliche CO2-Einsparung beim Betrieb von 1000 Pyrolyse-Anlagen zu berec
 
 2. **Jährliche CO2-Emissionen einer Pyrolyse-Anlage**:
    - Emissionen: 1433.6 kg CO2 pro MWh
-   - Jährliche Emissionen pro Pyrolyse-Anlage: \( 182 \, \text{kWh} \times 1.4336 \, \text{kg/kWh} \times 24 \, \text{Stunden/Tag} \times 365 \, \text{Tage/Jahr} \)
+   - Jährliche Emissionen pro Pyrolyse-Anlage: 182 * 1.4336 kg/kWh * 24 Stunden/Tag * 365 Tage/Jahr
+   - Wir beziehen diese Zahl nicht in der Berechnung ein, da die CO2 Emissionen wie bei Biogas durch den natürlichen Kreislauf gebunden wurden und daher in der Bilanz keine zusätzliche CO2 Belastung darstellen
 
 3. **CO2-Einsparung pro Pyrolyse-Anlage**:
    - Kohlenstoff-Bindung pro kWh: 414 g
@@ -23,6 +24,6 @@ Um die jährliche CO2-Einsparung beim Betrieb von 1000 Pyrolyse-Anlagen zu berec
 
 Diese Berechnung gibt eine Schätzung der CO2-Einsparung, basierend auf den Emissionen von Pyrolyse-Anlagen im Vergleich zu Braunkohlekraftwerken: [beispiel_1000_anlagen.py](./beispiel_1000_anlagen.py)
 
-**Gesamte jährlichen CO2 Einsparung**: 4,253,645.76 t
-**Gesamter jährlicher Holzberbrauch**: 2,566,695,768.0 t
-Beitrag in Prozent: 0.000425% der gewünschten 1 Gigatonnen CO2
+- **Gesamte jährlichen CO2 Einsparung**: 4,253,645.76 t
+- **Gesamter jährlicher Holzberbrauch**: 2,566,695,768.0 t
+- **Beitrag in Prozent**: 0.000425% der gewünschten 1 Gigatonnen CO2
