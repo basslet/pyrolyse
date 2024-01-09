@@ -43,7 +43,8 @@ Pyrolyse Anlagen ammortisieren sich durch
 
 - Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr (293 kg/h bei 4 kWh/kg)
 - Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
-- Während der Pyrolyse wird 50% des Kohlenstoffs in der Pflanzenkohle gebunden, die restlichen 50% werden freigegeben
+
+- Während der Pyrolyse wird 50% des Kohlenstoffs in der Pflanzenkohle gebunden, die restlichen 50% werden wieder freigegeben
 - Diese Anlage liefert 32 kWh Strom (netto) und 150 kWh Wärme
 
 **Verbrauch und Emissionen für 1 MWh Strom:**
@@ -71,4 +72,5 @@ CO2 ist ca. 4 mal schwerer als reiner Kohlenstoff: Die Molekulargewichte von Koh
 
 
 
+Bei der Pyrolyse ist zu beachten, dass immerhin ca. 50% des gespeicherten Kohlenstoffs aus dem Holz auf lange Zeit in Form von Pflanzenkohle gebunden wird, und lediglich 50% des eingehenden Kohlenstoffs dem natürlichen Kreislauf zurück gegeben wird. Der Prozess ist demnach CO2-negativ, da CO2 aus dem Kreislauf entnommen und gebunden wird. Biogas und klassische BHKW sind CO2-neutral, während bei der Verbrennung fossilier Energieträger der gespeicherte Kohlenstoff dem bestehenden Kreislauf _hinzugefügt_ wird.
 
