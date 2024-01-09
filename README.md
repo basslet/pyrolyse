@@ -13,7 +13,7 @@ Stand: 5. Januar 2024
 6. Problemstellung [wip]
 - Kohlenstoffentfernung
 - Anlageneffizienz
-7. Flottenmodell [wip]
+7. [Business Modell Optionen](./business_modell_optionen.md) [WIP]
 
 
 ## Einleitung Pyrolyse ##
