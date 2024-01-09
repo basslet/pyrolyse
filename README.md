@@ -10,7 +10,21 @@ Pyrolyse ist ein thermochemischer Prozess, bei dem Biomasse wie Holz in Abwesenh
 - [Video zu Funktionsweise](https://youtu.be/BOpEtUhSWm0)
 - [Referenz Anlage Clinx 50](https://pyro-power.com/pyro-clinx-system/)
 
-## Key Learnings zur Pyrolyse ##
+## Warum finde ich Pyrolyse spannend? ##
+
+Pyrolyse scheint die einzige Carbon Removal Methode zu sein, die sowohl Energie (Kraft-Wärme-Kopplung) freigibt, als auch Kohlenstoff in fester Form bindet. Da Pyrolyse aus Biomasse generiert, wird demnach kein neuer Kohlenstoff in den CO2 Kreislauf gegeben, sondern durch die Bindung wird CO2 reduziert.
+
+Pyrolyse Anlagen ammortisieren sich durch
+- Verkauf von Energie
+- CO2 Zertifikate
+- Pflanzenkohle
+
+## Was sind die Herausforderungen bei Pyrolyse  ##
+
+- hohe technische Anforderungen
+- Biomasse erfordert dezentralen Einsatz, dadurch geringerer Wirkungsgrad als große Kraftwerke
+
+## Meine Learnings zur Pyrolyse ##
 
 - Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr (293 kg/h bei 4 kWh/kg)
 - Benötigte Waldfläche: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
