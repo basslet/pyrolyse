@@ -7,8 +7,8 @@ Pyrolyse ist ein thermochemischer Prozess, bei dem Biomasse wie Holz in Abwesenh
 
 ## Wie funktioniert eine Pyrolyse Anlage ##
 
-[Video zu Funktionsweise](https://youtu.be/BOpEtUhSWm0)
-[Referenz Anlage Clinx 50](https://pyro-power.com/pyro-clinx-system/)
+- [Video zu Funktionsweise](https://youtu.be/BOpEtUhSWm0)
+- [Referenz Anlage Clinx 50](https://pyro-power.com/pyro-clinx-system/)
 
 ## Key Learnings zur Pyrolyse ##
 
