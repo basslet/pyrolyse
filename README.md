@@ -5,7 +5,7 @@ Stand: 5. Januar 2024
 
 ## Übersicht ##
 1. [Einleitung Pyrolyse](./README.md#pyrolyse_zusammenfassung)
-2. [Meine Learnings]((./README.md#learnings))
+2. [Meine Learnings](./README.md#meine-learnings-zur-pyrolyse)
 2. [Grundlegende Annahmen und Variablen](./annahmen_und_variablen.md)
 3. [Pyrolyse und Kohlenstoff Grundlagen Berechnung](./pyrolyse_de.md)
 4. Carbon Removal - [Beispielrechnung 1000 dezentrale Anlagen](./beispielrechnung_1000_anlagen.md)
