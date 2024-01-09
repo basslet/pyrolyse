@@ -52,7 +52,8 @@ Pyrolyse Anlagen ammortisieren sich durch
 - Die Gesamtmenge des Kohlenstoffs in diesem Holz beträgt 4578,125 kg.
 - Davon werden 2223,7 kg Kohlenstoff (48,6% des gesamten Kohlenstoffs) als Holzgas freigesetzt.
 - Diese freigesetzte Kohlenstoffmenge entspricht CO2-Emissionen von etwa 8153 kg pro MWh.
-- Im Vergleich erzeugt Kohle ca. 1 Tonne CO2-Emissionen, Erdgas lediglich 0,4 Tonnen CO2 (siehe dazu Notiz am Ende)
+- Im Vergleich erzeugt Kohle ca. 1 Tonne CO2-Emissionen, Erdgas lediglich 0,4 Tonnen CO2
+  - Referenzen zur Energiegewinnung und Emissionen sind nicht eindeutig, beispielsweise ist bei der Relation Energiegewinnung zu Emission unklar, ob sich die Werte auf die brutto oder netto Energiegewinnung beziehen, ob Abwärme mit einbezogen wurde, etc. Es fehlt ein klarer Standard. Das macht den Vergleich unterschiedlicher Energieträger um ein Vielfaches schwieriger.
 
 
 **Zugrundeliegende Annahmen:**
