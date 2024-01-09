@@ -15,7 +15,7 @@ Ein Kubikmeter Holz wiegt je nach Baumart und Feuchtigkeitsgehalt zwischen 0,4 u
 
 Um nachhaltig 50 Tonnen Holz pro Woche zu erforsten, benötigt man unter den Annahmen einer durchschnittlichen Holzdichte von 0,6 Tonnen pro Kubikmeter und einer Zuwachsrate von 10 Kubikmetern pro Hektar pro Jahr etwa 433 Hektar Wald.
 
-Hier ist die Berechnung: https://github.com/basslet/pyrolyse/blob/main/hektar_forst.py
+Hier ist die Berechnung: [hektar_forst.py](./hektar_forst.py)
 
 - Jährlicher Bedarf: 2600 Tonnen Holz (50 Tonnen pro Woche über 52 Wochen).
 - Umrechnung in Kubikmeter: Etwa 4333 Kubikmeter Holz pro Jahr (bei 0,6 Tonnen pro Kubikmeter).
@@ -36,7 +36,7 @@ Um zu berechnen, wie viel CO2 durch den Holzzuwachs in Wäldern gebunden und ges
 
 Angenommen, 1 Kubikmeter Holz wiegt durchschnittlich etwa 0,6 Tonnen (dies kann je nach Holzart und Wassergehalt variieren), dann können wir die gebundene Kohlenstoffmenge und die entsprechende CO2-Menge berechnen. Lassen Sie uns diese Berechnungen durchführen.
 
-Basierend auf den Berechnungen: https://github.com/basslet/pyrolyse/blob/main/holzzuwachs-co2.py
+Basierend auf den Berechnungen: [holzzuwachs-co2.py](./holzzuwachs-co2.py)
 
 1. Bei einem jährlichen Holzzuwachs von 8 Kubikmetern pro Hektar bindet der Wald ungefähr 8,8 Tonnen CO2 pro Hektar pro Jahr.
 2. Bei einem jährlichen Holzzuwachs von 12 Kubikmetern pro Hektar bindet der Wald etwa 13,2 Tonnen CO2 pro Hektar pro Jahr.
@@ -73,7 +73,7 @@ Und den Prozentsatz des in die Atmosphäre freigesetzten Kohlenstoffs:
 
 - Freigesetzter Kohlenstoff: 100% - Prozent des gebundenen Kohlenstoffs
 
-Die Berechnungen: https://github.com/basslet/pyrolyse/blob/main/kohlenstoff_bindung.py
+Die Berechnungen: [kohlenstoff_bindung.py](./kohlenstoff_bindung.py)
 
 Aus den gegebenen Daten ergibt sich, dass etwa 50% des Kohlenstoffs aus dem Holz in Form von Pflanzenkohle gebunden werden. Die verbleibenden 50% des Kohlenstoffs aus dem Holz werden freigesetzt, wahrscheinlich größtenteils in die Atmosphäre.
 
@@ -94,7 +94,7 @@ Um die CO2-Emissionen bei der Stromproduktion eines Pyrolyse-Blockheizkraftwerks
 3. **Berechnung der CO2-Emissionen pro MWh**:
    - Die elektrische Nettoleistung des BHKW beträgt 32 kW, und der elektrische Wirkungsgrad ist 19%. Dies bedeutet, dass zur Erzeugung von 1 MWh Strom eine erhebliche Menge an Holz verbrannt werden muss.
 
-Zur Berechnung: https://github.com/basslet/pyrolyse/blob/main/co2_1mwh_pyrolyse.py
+Zur Berechnung: [co2_1mwh_pyrolyse.py](./co2_1mwh_pyrolyse.py)
 
 Beginnen wir mit der Berechnung des Kohlenstoffgehalts im Holz und der daraus resultierenden CO2-Emissionen. Anschließend berechnen wir, wie viel CO2 pro erzeugter MWh Strom freigesetzt wird.
 
@@ -126,7 +126,7 @@ Nach der Überprüfung und Korrektur der Berechnungen erhalten wir die folgenden
 - Davon werden 2223,7 kg Kohlenstoff (50% des gesamten Kohlenstoffs) als Holzgas freigesetzt.
 - Diese freigesetzte Kohlenstoffmenge entspricht CO2-Emissionen von etwa 8153 kg pro MWh.
 
-Berechnung: https://github.com/basslet/pyrolyse/blob/main/ueberpruefung_co2_pro_mwh.py
+Berechnung: [ueberpruefung_co2_pro_mwh.py](./ueberpruefung_co2_pro_mwh.py)
 
 Die Berechnung zeigt, dass trotz des relativ hohen Wirkungsgrades des Pyrolyseverfahrens bei der Umwandlung von Holz in Energie, immer noch eine erhebliche Menge an CO2 freigesetzt wird. Es ist wichtig zu betonen, dass diese Berechnung von spezifischen Annahmen und Durchschnittswerten ausgeht und die tatsächlichen Emissionen je nach der Effizienz des spezifischen Pyrolyse-Prozesses und den Eigenschaften des verwendeten Holzes variieren können.
 
