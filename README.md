@@ -35,15 +35,15 @@ Pyrolyse-Anlagen können sich durch verschiedene Wege amortisieren:
 
 ## Was sind die Herausforderungen bei Pyrolyse  ##
 
-- hohe technische Anforderungen für einen reibungslosen Betrieb
+- Hohe technische Anforderungen für einen reibungslosen Betrieb
+- Homogenes Eingangsmaterial
 - Biomasse erfordert dezentralen Einsatz, dadurch geringerer Wirkungsgrad als große Kraftwerke
-- größere Menge an Eingangsmaterial ggü Kohle oder Erdgas, da der Energiegehalt in Holz niedriger ist als fossile Brennstoffe
+- Größere Menge an Eingangsmaterial im Vergleich zu Kohle oder Erdgas, da der Energiegehalt in Holz niedriger ist, als fossile Brennstoffe
 
 ## Meine Learnings zur Pyrolyse ##
 
 - Pyrolyse Anlage (Clinx 50) verbraucht ca. 2600 Tonnen Holz pro Jahr (293 kg/h bei 4 kWh/kg)
 - Benötigte Waldfläche für nachhaltige Gewinnung: 433 Hektar bei 10 Kubikmeter Zuwachs pro Hektar pro Jahr (Zuwachs kann je nach Wald stark variieren)
-
 - Während der Pyrolyse wird 50% des Kohlenstoffs in der Pflanzenkohle gebunden, die restlichen 50% werden wieder freigegeben
 - Diese Anlage liefert 32 kWh Strom (netto) und 150 kWh Wärme
 
