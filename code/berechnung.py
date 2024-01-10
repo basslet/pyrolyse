@@ -40,6 +40,15 @@ clinx50.bericht(h.stunden_pro_jahr)
 clinx150.bericht(1)
 clinx150.bericht(h.stunden_pro_jahr)
 
+print()
+print('## 1000 Anlagen über 1 Jahr ##')
+print()
+clinx50.anzahl_anlagen = 1000
+clinx150.anzahl_anlagen = 1000
+clinx50.bericht(h.stunden_pro_jahr)
+clinx150.bericht(h.stunden_pro_jahr)
+
+
 strom_eur = 0.08 # pro kWh
 waerme_eur = 0.08 # pro kWh
 pflanzenkohle_eur = 0.1 * 0.3 # 1 EUR pro kg, 70% Marge und Steuer
@@ -48,13 +57,14 @@ co2_zertifikat_eur = 0.05 # 0.05 EUR pro kg
 # Statista: Während der Preis für ein CO2-Zertifikat im EU Emissions Trading System (EU-ETS) in 2007 noch durchschnittlich bei etwa 0,70 Euro lag, stieg er bis 2022² auf durchschnittlich ca. 81 Euro an.
 
 
-anlage = clinx50
+anlage = clinx150
+anlage.anzahl_anlagen = 1
 zeitraum_in_h = h.stunden_pro_jahr
 strom_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False) * strom_eur
 waerme_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, strom=False) * waerme_eur
 pflanzenkohle_ertrag = anlage.pflanzenkohle_in_kg(zeitraum_in_h) * pflanzenkohle_eur
 co2_zertifikat_ertrag = anlage.gebundener_kohlenstoff(zeitraum_in_h)*h.umrechnungsfaktor_c_zu_co2() * co2_zertifikat_eur
-print('## Amortisation über 1 Jahr ##' )
+print('## Clinx150 Amortisation über 1 Jahr ##' )
 print('- Strom:',h.smart_format(strom_ertrag, f'EUR ({strom_eur} EUR/kWh)') )
 print('- Wärme:',h.smart_format(waerme_ertrag, f'EUR ({waerme_eur} EUR/kWh)') )
 print('- Pflanzenkohle:',h.smart_format(pflanzenkohle_ertrag, f'EUR ({pflanzenkohle_eur} EUR/kg)') )

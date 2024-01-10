@@ -82,12 +82,12 @@ class EnergieGewinnung:
     def kohlenstoff_emission_in_kg(self, laufzeit_in_h):
         # Berechnung der Kohlenstoffemission in kg
         gesamtkohlenstoff = self.eingangsmasse_pro_h * (self.energie_klasse.kohlenstoff_gehalt/100) * laufzeit_in_h
-        kohlenstoff_emission = gesamtkohlenstoff - self.gebundener_kohlenstoff(laufzeit_in_h)
+        kohlenstoff_emission = gesamtkohlenstoff - self.gebundener_kohlenstoff(laufzeit_in_h)/self.anzahl_anlagen
         return kohlenstoff_emission * self.anzahl_anlagen
 
     def co2_emission_in_kg(self, laufzeit_in_h):
         # Berechnung der CO2 in kg
-        gesamt_co2 = self.kohlenstoff_emission_in_kg(laufzeit_in_h) * h.umrechnungsfaktor_c_zu_co2()
+        gesamt_co2 = self.kohlenstoff_emission_in_kg(laufzeit_in_h)/self.anzahl_anlagen * h.umrechnungsfaktor_c_zu_co2()
         return gesamt_co2 * self.anzahl_anlagen
 
     def eingangsmasse_in_kg(self, laufzeit_in_h):
