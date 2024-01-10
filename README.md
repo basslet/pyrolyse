@@ -33,12 +33,15 @@ Pyrolyse-Anlagen können sich durch verschiedene Wege amortisieren:
 - Handel mit generierten CO2-Zertifikaten
 - Verkauf von Pflanzenkohle
 
-## Was sind die Herausforderungen bei Pyrolyse  ##
+## Was sind die Herausforderungen in der Pyrolyse  ##
 
-- Hohe technische Anforderungen für einen reibungslosen Betrieb
-- Homogenes Eingangsmaterial
-- Biomasse erfordert dezentralen Einsatz, dadurch geringerer Wirkungsgrad als große Kraftwerke
-- Größere Menge an Eingangsmaterial im Vergleich zu Kohle oder Erdgas, da der Energiegehalt in Holz niedriger ist, als fossile Brennstoffe
+Die Pyrolyse als Verfahren zur Energiegewinnung und Kohlenstoffbindung aus Biomasse stellt verschiedene Herausforderungen dar:
+
+- **Hohe technische Anforderungen für einen effizienten Betrieb**: Pyrolyseanlagen erfordern präzise Steuerung und fortgeschrittene Technologie, um einen reibungslosen und effizienten Betrieb sicherzustellen.
+- **Notwendigkeit von homogenem Eingangsmaterial**: Die Qualität und Homogenität des Eingangsmaterials, typischerweise Holz oder andere Biomasse, beeinflusst maßgeblich die Effizienz des Pyrolyseprozesses.
+- **Dezentraler Einsatz der Biomasse**: Aufgrund des meist regionalen Anfalls von Biomasse ist ein dezentraler Einsatz der Pyrolyseanlagen erforderlich. Dies kann zu einem geringeren Wirkungsgrad im Vergleich zu großen, zentralisierten Kraftwerken führen.
+- **Größerer Materialbedarf im Vergleich zu fossilen Brennstoffen**: Biomasse wie Holz weist einen niedrigeren Energiegehalt im Vergleich zu fossilen Brennstoffen wie Kohle oder Erdgas auf. Dies erfordert größere Mengen an Eingangsmaterial, um die gleiche Energiemenge zu erzeugen.
+
 
 ## Meine Learnings zur Pyrolyse ##
 
