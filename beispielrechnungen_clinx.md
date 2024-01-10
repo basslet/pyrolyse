@@ -4,7 +4,7 @@ https://pyro-power.com/pyro-clinx-system/
 
 ## 1 Clinx 50 Anlage über 1 Stunde(n) ##
 - Gesamtleistung: 182 kWh
-- Elektrische Netoleistung: 32 kWh
+- Elektrische Nettoleistung: 32 kWh
 - Benötigte Forstfläche: 431 Hektar
 - Benötigte Menge Holz: 295 kg
 - Kohlenstoff Emission: 71.64 kg
@@ -15,7 +15,7 @@ https://pyro-power.com/pyro-clinx-system/
 
 ## 1 Clinx 50 Anlage über 1 Jahr(e) ##
 - Gesamtleistung: 1,594,320 kWh (1,594.32 MWh)
-- Elektrische Netoleistung: 280,320 kWh (280.32 MWh)
+- Elektrische Nettoleistung: 280,320 kWh (280.32 MWh)
 - Benötigte Forstfläche: 431 Hektar
 - Benötigte Menge Holz: 2,584,200 kg (2,584.2 t)
 - Kohlenstoff Emission: 627,591 kg (627.59 t)
@@ -26,7 +26,7 @@ https://pyro-power.com/pyro-clinx-system/
 
 ## 1 Clinx 150 Anlage über 1 Stunde(n) ##
 - Gesamtleistung: 350 kWh
-- Elektrische Netoleistung: 100 kWh
+- Elektrische Nettoleistung: 100 kWh
 - Benötigte Forstfläche: 558 Hektar
 - Benötigte Menge Holz: 382 kg
 - Kohlenstoff Emission: 92.77 kg
@@ -37,7 +37,7 @@ https://pyro-power.com/pyro-clinx-system/
 
 ## 1 Clinx 150 Anlage über 1 Jahr(e) ##
 - Gesamtleistung: 3,066,000 kWh (3,066 MWh)
-- Elektrische Netoleistung: 876,000 kWh (876 MWh)
+- Elektrische Nettoleistung: 876,000 kWh (876 MWh)
 - Benötigte Forstfläche: 558 Hektar
 - Benötigte Menge Holz: 3,346,320 kg (3,346.32 t)
 - Kohlenstoff Emission: 812,678 kg (812.68 t)
@@ -51,7 +51,7 @@ https://pyro-power.com/pyro-clinx-system/
 
 ## 1000 Clinx 50 Anlage über 1 Jahr(e) ##
 - Gesamtleistung: 1,594,320,000 kWh (1,594,320 MWh)
-- Elektrische Netoleistung: 280,320,000 kWh (280,320 MWh)
+- Elektrische Nettoleistung: 280,320,000 kWh (280,320 MWh)
 - Benötigte Forstfläche: 430,700 Hektar
 - Benötigte Menge Holz: 2,584,200,000 kg (2,584,200 t)
 - Kohlenstoff Emission: 627,591,429 kg (627,591.43 t)
@@ -62,7 +62,7 @@ https://pyro-power.com/pyro-clinx-system/
 
 ## 1000 Clinx 150 Anlage über 1 Jahr(e) ##
 - Gesamtleistung: 3,066,000,000 kWh (3,066,000 MWh)
-- Elektrische Netoleistung: 876,000,000 kWh (876,000 MWh)
+- Elektrische Nettoleistung: 876,000,000 kWh (876,000 MWh)
 - Benötigte Forstfläche: 557,720 Hektar
 - Benötigte Menge Holz: 3,346,320,000 kg (3,346,320 t)
 - Kohlenstoff Emission: 812,677,714 kg (812,677.71 t)

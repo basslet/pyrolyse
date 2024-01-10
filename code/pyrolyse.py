@@ -131,7 +131,7 @@ class EnergieGewinnung:
         print(f'## {self.anzahl_anlagen} {self.anlagen_name} Anlage über {zeitraum_string} ##')
 
         print('- Gesamtleistung:',h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h), 'kWh') )
-        print('- Elektrische Netoleistung:',h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False), 'kWh') )
+        print('- Elektrische Nettoleistung:',h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False), 'kWh') )
         print('- Benötigte Forstfläche:',h.smart_format(self.benoetigte_flaeche(), 'Hektar'))
         print('- Benötigte Menge Holz:',h.smart_format(self.eingangsmasse_in_kg(zeitraum_in_h), 'kg'))
         print('- Kohlenstoff Emission:',h.smart_format(self.kohlenstoff_emission_in_kg(zeitraum_in_h), 'kg'))
