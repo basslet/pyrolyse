@@ -1,6 +1,6 @@
 
-- Strom: 0.08 EUR / kWh
 # Amortisation Berechnungen #
+- Strom: 0.08 EUR / kWh
 - Pflanzenkohle: 0.10 EUR / kg, 70% Marge und Steuer
 - Wärme: 0.08 EUR / kWh
 - CO2 Zertifikat: 0.05 EUR / kg (50 EUR / t)
