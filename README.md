@@ -1,6 +1,6 @@
 # Pyrolyse Berechnungen #
 
-Stand: 5. Januar 2024
+Stand: 10. Januar 2024
 
 
 ## Übersicht ##
