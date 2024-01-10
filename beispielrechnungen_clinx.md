@@ -73,7 +73,7 @@
 - Kohlenstoff Bindung: 860,482,286 kg (860,482.29 t)
 - CO2 Reduktion: 3,155,101,714 kg (3,155,101.71 t)
 
-## Clinx150 Amortisation über 1 Jahr ##
+## Eine Clinx150 Amortisation über 1 Jahr ##
 - Strom: 70,080 EUR (0.08 EUR/kWh)
 - Wärme: 175,200 EUR (0.08 EUR/kWh)
 - Pflanzenkohle: 28,683 EUR (0.03 EUR/kg)
