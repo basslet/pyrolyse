@@ -3,7 +3,7 @@
 https://pyro-power.com/pyro-clinx-system/
 
 ## 1 Clinx 50 Anlage über 1 Stunde(n) ##
-- Gesamtleistung: 182 kWh
+- Gesamtleistung: 182 kWh Strom und Wärme, Nettoleistung
 - Elektrische Nettoleistung: 32 kWh
 - Benötigte Forstfläche: 431 Hektar
 - Benötigte Menge Holz: 295 kg
@@ -14,7 +14,7 @@ https://pyro-power.com/pyro-clinx-system/
 - CO2 Reduktion: 278.14 kg
 
 ## 1 Clinx 50 Anlage über 1 Jahr(e) ##
-- Gesamtleistung: 1,594,320 kWh (1,594.32 MWh)
+- Gesamtleistung: 1,594,320 kWh Strom und Wärme, Nettoleistung
 - Elektrische Nettoleistung: 280,320 kWh (280.32 MWh)
 - Benötigte Forstfläche: 431 Hektar
 - Benötigte Menge Holz: 2,584,200 kg (2,584.2 t)
@@ -25,7 +25,7 @@ https://pyro-power.com/pyro-clinx-system/
 - CO2 Reduktion: 2,436,531 kg (2,436.53 t)
 
 ## 1 Clinx 150 Anlage über 1 Stunde(n) ##
-- Gesamtleistung: 350 kWh
+- Gesamtleistung: 350 kWh Strom und Wärme, Nettoleistung
 - Elektrische Nettoleistung: 100 kWh
 - Benötigte Forstfläche: 558 Hektar
 - Benötigte Menge Holz: 382 kg
@@ -36,7 +36,7 @@ https://pyro-power.com/pyro-clinx-system/
 - CO2 Reduktion: 360.17 kg
 
 ## 1 Clinx 150 Anlage über 1 Jahr(e) ##
-- Gesamtleistung: 3,066,000 kWh (3,066 MWh)
+- Gesamtleistung: 3,066,000 kWh Strom und Wärme, Nettoleistung
 - Elektrische Nettoleistung: 876,000 kWh (876 MWh)
 - Benötigte Forstfläche: 558 Hektar
 - Benötigte Menge Holz: 3,346,320 kg (3,346.32 t)
@@ -50,7 +50,7 @@ https://pyro-power.com/pyro-clinx-system/
 ## 1000 Anlagen über 1 Jahr ##
 
 ## 1000 Clinx 50 Anlage über 1 Jahr(e) ##
-- Gesamtleistung: 1,594,320,000 kWh (1,594,320 MWh)
+- Gesamtleistung: 1,594,320,000 kWh Strom und Wärme, Nettoleistung
 - Elektrische Nettoleistung: 280,320,000 kWh (280,320 MWh)
 - Benötigte Forstfläche: 430,700 Hektar
 - Benötigte Menge Holz: 2,584,200,000 kg (2,584,200 t)
@@ -61,7 +61,7 @@ https://pyro-power.com/pyro-clinx-system/
 - CO2 Reduktion: 2,436,531,429 kg (2,436,531.43 t)
 
 ## 1000 Clinx 150 Anlage über 1 Jahr(e) ##
-- Gesamtleistung: 3,066,000,000 kWh (3,066,000 MWh)
+- Gesamtleistung: 3,066,000,000 kWh Strom und Wärme, Nettoleistung
 - Elektrische Nettoleistung: 876,000,000 kWh (876,000 MWh)
 - Benötigte Forstfläche: 557,720 Hektar
 - Benötigte Menge Holz: 3,346,320,000 kg (3,346,320 t)
