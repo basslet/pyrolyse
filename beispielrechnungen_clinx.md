@@ -1,6 +1,8 @@
 # Berechnungen am Beispiel Clinx #
 
-https://pyro-power.com/pyro-clinx-system/
+- Technische Spezifikation: https://pyro-power.com/pyro-clinx-system/
+- [Pyrolyse Berechnung](./code/pyrolyse.py)
+- [Anlage Parameter](./code/berechnung.py)
 
 ## 1 Clinx 50 Anlage über 1 Stunde(n) ##
 - Gesamtleistung: 182 kWh Strom und Wärme, Nettoleistung
