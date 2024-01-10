@@ -1,5 +1,5 @@
 # Jährliche Menge an Holz in Tonnen
-holz_pro_woche_tonnen = 50
+holz_pro_woche_tonnen = 49.229
 wochen_pro_jahr = 52
 jahresmenge_holz_tonnen = holz_pro_woche_tonnen * wochen_pro_jahr
 
@@ -8,7 +8,7 @@ dichte_holz_tonnen_pro_kubikmeter = 0.6
 
 # Umrechnung der jährlichen Holzmenge in Kubikmeter
 jahresmenge_holz_kubikmeter = jahresmenge_holz_tonnen / dichte_holz_tonnen_pro_kubikmeter
-
+print(jahresmenge_holz_kubikmeter)
 # Durchschnittliche Zuwachsrate pro Hektar pro Jahr (angenommen)
 zuwachsrate_pro_hektar_pro_jahr_kubikmeter = 10  # Kann je nach Waldtyp variieren
 

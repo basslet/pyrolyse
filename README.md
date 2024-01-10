@@ -8,8 +8,8 @@ Stand: 5. Januar 2024
 2. [Meine Learnings](./README.md#meine-learnings-zur-pyrolyse)
 2. [Grundlegende Annahmen und Variablen](./annahmen_und_variablen.md)
 3. [Pyrolyse und Kohlenstoff Grundlagen Berechnung](./pyrolyse_de.md)
-4. Carbon Removal - [Beispielrechnung 1000 dezentrale Anlagen](./beispielrechnung_1000_anlagen.md)
-5. [Vergleich zu alternativen EEGs](./alternative_eegs.md) (wip)
+4. [Beispielrechnung Clinx50 und Clinx150](./beispielrechnungen_clinx.md)
+5. [Amortisation](./amortisation.md) (wip)
 6. Problemstellung [wip]
 - Kohlenstoffentfernung
 - Anlageneffizienz
