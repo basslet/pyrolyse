@@ -42,10 +42,3 @@
 - Kohlenstoff Bindung: 860,482 kg (860.48 t)
 - CO2 Reduktion: 3,155,102 kg (3,155.1 t)
 
-## Amortisation Clinx 50 über 1 Jahr ##
-- Strom: 22,426 EUR (0.08 EUR/kWh)
-- Wärme: 105,120 EUR (0.08 EUR/kWh)
-- Pflanzenkohle: 73,834 EUR (0.1 EUR/kg)
-- CO2 Zertifikate: 121,827 EUR (0.05 EUR/kg)
-
-**Gesamt:** 323,206 EUR
