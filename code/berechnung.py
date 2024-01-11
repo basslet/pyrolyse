@@ -65,7 +65,7 @@ def amortisation(anlage):
     pflanzenkohle_ertrag = anlage.pflanzenkohle_in_kg(zeitraum_in_h) * pflanzenkohle_eur
     co2_zertifikat_ertrag = anlage.gebundener_kohlenstoff(zeitraum_in_h)*h.umrechnungsfaktor_c_zu_co2() * co2_zertifikat_eur
     fte = 2*-50000
-    biomasse = -700*52*(295/anlage.eingangsmasse_pro_h)
+    biomasse = -700*52*(anlage.eingangsmasse_pro_h/295)
     einnahmen = strom_ertrag + waerme_ertrag + pflanzenkohle_ertrag + co2_zertifikat_ertrag
 
     print(f'## {anlage.anlagen_name} Amortisation über 1 Jahr ##' )
@@ -83,5 +83,5 @@ def amortisation(anlage):
 
 
 amortisation(clinx50)
-
+print()
 amortisation(clinx150)

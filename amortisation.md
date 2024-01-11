@@ -33,6 +33,6 @@ Wertschöpfung:
 | Pflanzenkohle | 28,683 EUR | 0.03 EUR/kg |
 | CO2 Zertifikate | 157,755 EUR | 0.05 EUR/kg |
 | 2 FTE Mitarbeiter | -100,000 EUR | |
-| Biomasse | -28,110 EUR | 700EUR/Woche/295kg/h|
+| Biomasse | -47,135 EUR | 700EUR/Woche/295kg/h|
 | **Einnahmen** | 431,718 EUR | |
-| **Amortisation** | 303,608 EUR | |
+| **Amortisation** | 284,583 EUR | |
