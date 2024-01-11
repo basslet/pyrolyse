@@ -1,6 +1,7 @@
 # Berechnungen am Beispiel Clinx #
 
 - Technische Spezifikation: https://pyro-power.com/pyro-clinx-system/
+- [Annahmen und Variablen](./annahmen_und_variablen.md)
 - Code zur [Pyrolyse Berechnung](./code/pyrolyse.py)
 - Code für [Anlage Parameter](./code/berechnung.py)
 
