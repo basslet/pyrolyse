@@ -9,7 +9,7 @@ class helper:
             scaled_unit=unit_dict[unit] # Für kg wird zu t und für kWh wird zu MWh
             if number >= 1000:
                 scaled_number = number / 1000
-                formatted_number = f"{scaled_number:,.2f}".rstrip('0').rstrip('.') if scaled_number % 1 != 0 else f"{scaled_number:,.0f}"
+                formatted_number = f"{scaled_number:,.0f}"
                 return f"{number:,.0f} {unit} ({formatted_number} {scaled_unit})"
             else:
                 formatted_number = f"{number:,.2f}".rstrip('0').rstrip('.') if number % 1 != 0 else f"{number:,.0f}"
