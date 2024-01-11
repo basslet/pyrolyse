@@ -9,7 +9,7 @@ class helper:
             scaled_unit=unit_dict[unit] # Für kg wird zu t und für kWh wird zu MWh
             if number >= 1000:
                 scaled_number = number / 1000
-                formatted_number = f"{scaled_number:,.2f}".rstrip('0').rstrip('.') if scaled_number % 1 != 0 else f"{scaled_number:,.0f}"
+                formatted_number = f"{scaled_number:,.0f}"
                 return f"{number:,.0f} {unit} ({formatted_number} {scaled_unit})"
             else:
                 formatted_number = f"{number:,.2f}".rstrip('0').rstrip('.') if number % 1 != 0 else f"{number:,.0f}"
@@ -128,18 +128,24 @@ class EnergieGewinnung:
         else:
             zeitraum_string = h.smart_format(zeitraum_in_h, 'Stunde(n)')
 
-        print(f'## {self.anzahl_anlagen} {self.anlagen_name} Anlage über {zeitraum_string} ##')
+        print(f'## {self.anzahl_anlagen} {self.anlagen_name} Anlage über {zeitraum_string} ##\n')
 
-        print('- Gesamtleistung:',h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h), 'kWh Strom und Wärme, Nettoleistung') )
-        print('  - Elektrische Nettoleistung:',h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False), 'kWh') )
-        print('- Benötigte Forstfläche:',h.smart_format(self.benoetigte_flaeche(), 'Hektar'))
-        print('  - Benötigte Menge Holz:',h.smart_format(self.eingangsmasse_in_kg(zeitraum_in_h), 'kg'))
-        print('- Kohlenstoff Emission:',h.smart_format(self.kohlenstoff_emission_in_kg(zeitraum_in_h), 'kg'))
-        print('  - CO2 Emission:',h.smart_format(self.co2_emission_in_kg(zeitraum_in_h), 'kg'))
-        print('- Pflanzenkohle Erzeugung:',h.smart_format(self.pflanzenkohle_in_kg(zeitraum_in_h), 'kg'))
-        print('  - Kohlenstoff Bindung:',h.smart_format(self.gebundener_kohlenstoff(zeitraum_in_h), 'kg'))
-        print('  - CO2 Reduktion:',h.smart_format(self.gebundener_kohlenstoff(zeitraum_in_h)*h.umrechnungsfaktor_c_zu_co2(), 'kg'))
+        # Tabellenkopf
+        print('| | Summe |')
+        print('| --- | --- |')
+
+        # Tabelleninhalt
+        print(f'| Gesamtleistung | {h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h), "kWh Strom und Wärme, Nettoleistung")} |')
+        print(f'| Elektrische Nettoleistung | {h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False), "kWh")} |')
+        print(f'| Benötigte Forstfläche | {h.smart_format(self.benoetigte_flaeche(), "Hektar")} |')
+        print(f'| Benötigte Menge Holz | {h.smart_format(self.eingangsmasse_in_kg(zeitraum_in_h), "kg")} |')
+        print(f'| Kohlenstoff Emission | {h.smart_format(self.kohlenstoff_emission_in_kg(zeitraum_in_h), "kg")} |')
+        print(f'| CO2 Emission | {h.smart_format(self.co2_emission_in_kg(zeitraum_in_h), "kg")} |')
+        print(f'| Pflanzenkohle Erzeugung | {h.smart_format(self.pflanzenkohle_in_kg(zeitraum_in_h), "kg")} |')
+        print(f'| Kohlenstoff Bindung | {h.smart_format(self.gebundener_kohlenstoff(zeitraum_in_h), "kg")} |')
+        print(f'| CO2 Reduktion | {h.smart_format(self.gebundener_kohlenstoff(zeitraum_in_h) * h.umrechnungsfaktor_c_zu_co2(), "kg")} |')
         print()
+
 
 
 h = helper()
