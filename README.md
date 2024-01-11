@@ -10,10 +10,6 @@ Stand: 10. Januar 2024
 3. [Pyrolyse und Kohlenstoff Grundlagen Berechnung](./pyrolyse_de.md)
 4. [Beispielrechnung Clinx50 und Clinx150](./beispielrechnungen_clinx.md)
 5. [Amortisation](./amortisation.md) (wip)
-6. Problemstellung [wip]
-- Kohlenstoffentfernung
-- Anlageneffizienz
-7. [Business Modell Optionen](./business_modell_optionen.md) [WIP]
 
 
 ## Einleitung Pyrolyse ##
