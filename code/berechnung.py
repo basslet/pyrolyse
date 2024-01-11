@@ -57,20 +57,31 @@ co2_zertifikat_eur = 0.05 # 0.05 EUR pro kg
 # Statista: Während der Preis für ein CO2-Zertifikat im EU Emissions Trading System (EU-ETS) in 2007 noch durchschnittlich bei etwa 0,70 Euro lag, stieg er bis 2022² auf durchschnittlich ca. 81 Euro an.
 
 
-anlage = clinx150
-anlage.anzahl_anlagen = 1
-zeitraum_in_h = h.stunden_pro_jahr
-strom_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False) * strom_eur
-waerme_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, strom=False) * waerme_eur
-pflanzenkohle_ertrag = anlage.pflanzenkohle_in_kg(zeitraum_in_h) * pflanzenkohle_eur
-co2_zertifikat_ertrag = anlage.gebundener_kohlenstoff(zeitraum_in_h)*h.umrechnungsfaktor_c_zu_co2() * co2_zertifikat_eur
-print('## Clinx150 Amortisation über 1 Jahr ##' )
-print('- Strom:',h.smart_format(strom_ertrag, f'EUR ({strom_eur} EUR/kWh)') )
-print('- Wärme:',h.smart_format(waerme_ertrag, f'EUR ({waerme_eur} EUR/kWh)') )
-print('- Pflanzenkohle:',h.smart_format(pflanzenkohle_ertrag, f'EUR ({pflanzenkohle_eur} EUR/kg)') )
-print('- CO2 Zertifikate:',h.smart_format(co2_zertifikat_ertrag, f'EUR ({co2_zertifikat_eur} EUR/kg)'))
-print()
-print('**Gesamt:**',h.smart_format(strom_ertrag +
-                                    waerme_ertrag +
-                                    pflanzenkohle_ertrag +
-                                    co2_zertifikat_ertrag, 'EUR') )
+def amortisation(anlage):
+    anlage.anzahl_anlagen = 1
+    zeitraum_in_h = h.stunden_pro_jahr
+    strom_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False) * strom_eur
+    waerme_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, strom=False) * waerme_eur
+    pflanzenkohle_ertrag = anlage.pflanzenkohle_in_kg(zeitraum_in_h) * pflanzenkohle_eur
+    co2_zertifikat_ertrag = anlage.gebundener_kohlenstoff(zeitraum_in_h)*h.umrechnungsfaktor_c_zu_co2() * co2_zertifikat_eur
+    fte = 2*-50000
+    biomasse = -700*52*(295/anlage.eingangsmasse_pro_h)
+    einnahmen = strom_ertrag + waerme_ertrag + pflanzenkohle_ertrag + co2_zertifikat_ertrag
+
+    print(f'## {anlage.anlagen_name} Amortisation über 1 Jahr ##' )
+    print('|| pro Jahr | Basis |')
+    print('|---|---|---|')
+    print('| Strom |',h.smart_format(strom_ertrag, f'EUR | {strom_eur} EUR/kWh | ') )
+    print('| Wärme |',h.smart_format(waerme_ertrag, f'EUR | {waerme_eur} EUR/kWh |') )
+    print('| Pflanzenkohle |',h.smart_format(pflanzenkohle_ertrag, f'EUR | {pflanzenkohle_eur} EUR/kg |') )
+    print('| CO2 Zertifikate |',h.smart_format(co2_zertifikat_ertrag, f'EUR | {co2_zertifikat_eur} EUR/kg |'))
+    print('| 2 FTE Mitarbeiter |',h.smart_format(fte, "EUR"), '| |')
+    print('| Biomasse |',h.smart_format(biomasse, "EUR"), '| 700EUR/Woche/295kg/h|')
+    print('| **Einnahmen** |',h.smart_format(einnahmen, 'EUR'), '| |' )
+    print('| **Amortisation** |',h.smart_format(einnahmen+fte+biomasse, 'EUR'), '| |' )
+
+
+
+amortisation(clinx50)
+
+amortisation(clinx150)
