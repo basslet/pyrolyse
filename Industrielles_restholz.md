@@ -8,7 +8,7 @@ https://de.statista.com/statistik/daten/studie/162616/umfrage/holzwirtschaft-aus
 
 Stand 2018: 3.6 Millionen Kubikmeter Restholz. Das entspricht ca. 2.16 Millionen t Restholz.
 
-Eine Clinx 150 Anlage verbraucht ca. 3,346 t Holz pro Jahr. Demnach entspricht die exportierte Restholzmenge etwa 150 Clinx 150 Anlagen.
+Eine Clinx 150 Anlage verbraucht ca. 3,346 t Holz pro Jahr. Demnach entspricht die exportierte Restholzmenge etwa 645 Clinx 150 Anlagen.
 
 Neben dem Export wurden 2018 7.1 Millionen Kubikmeter Restholz importiert, also fast die dreifache Menge.
 https://de.statista.com/statistik/daten/studie/162622/umfrage/holzwirtschaft-einfuhr-von-rohholz-seit-2003/
