@@ -10,6 +10,7 @@ Stand: 10. Januar 2024
 3. [Pyrolyse und Kohlenstoff Grundlagen Berechnung](./pyrolyse_de.md)
 4. [Beispielrechnung Clinx50 und Clinx150](./beispielrechnungen_clinx.md)
 5. [Amortisation](./amortisation.md) (wip)
+6. [Restholz](./industrielles_restholz.md) (wip)
 
 
 ## Einleitung Pyrolyse ##
