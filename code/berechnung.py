@@ -85,3 +85,8 @@ def amortisation(anlage):
 amortisation(clinx50)
 print()
 amortisation(clinx150)
+
+
+
+
+
