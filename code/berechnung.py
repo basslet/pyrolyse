@@ -34,19 +34,19 @@ clinx150 = EnergieGewinnung(
     anzahl_anlagen=1
 )
 
-clinx50.bericht(1)
-clinx50.bericht(h.stunden_pro_jahr)
+print(clinx50.bericht(1))
+print(clinx50.bericht(h.stunden_pro_jahr))
 
-clinx150.bericht(1)
-clinx150.bericht(h.stunden_pro_jahr)
+print(clinx150.bericht(1))
+print(clinx150.bericht(h.stunden_pro_jahr))
 
 print()
 print('## 1000 Anlagen über 1 Jahr ##')
 print()
 clinx50.anzahl_anlagen = 1000
 clinx150.anzahl_anlagen = 1000
-clinx50.bericht(h.stunden_pro_jahr)
-clinx150.bericht(h.stunden_pro_jahr)
+print(clinx50.bericht(h.stunden_pro_jahr))
+print(clinx150.bericht(h.stunden_pro_jahr))
 
 
 strom_eur = 0.08 # pro kWh
