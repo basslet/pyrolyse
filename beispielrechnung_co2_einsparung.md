@@ -1,7 +1,10 @@
 ## Erneuerbare Energie Gewinnung in Deutschland ##
 
 
-https://strom-report.com/windenergie/
+- https://strom-report.com/strommix/
+- https://strom-report.com/windenergie/
+- https://www.bmwk.de/Redaktion/DE/Pressemitteilungen/2022/03/20220315-treibhausgasemissionen-stiegen-2021-um-45-prozent.html
+- https://www.ise.fraunhofer.de/de/presse-und-medien/presseinformationen/2023/nettostromerzeugung-in-deutschland-2022-wind-und-photovoltaik-haben-deutlich-zugelegt.html
 
 
 Gesamter CO2-Ausstoß in Deutschland in 2021: 762 Millionen Tonnen
