@@ -11,6 +11,7 @@ Stand: 10. Januar 2024
 4. [Beispielrechnung Clinx50 und Clinx150](./beispielrechnungen_clinx.md)
 5. [Amortisation](./amortisation.md) (wip)
 6. [Restholz](./restholz.md) (wip)
+7. [Berechnung zur CO2 Reduktion](./beispielrechnung_co2_einsparung.md) anteilig am Gesamtstrom erneuerbarer Energien in DE
 
 
 ## Einleitung Pyrolyse ##
