@@ -11,7 +11,7 @@ Gesamter CO2-Ausstoß in Deutschland in 2021: 762 Millionen Tonnen
 Anteil der Energiewirtschaft: 34%
 
 CO2-Emissionen der Energiewirtschaft:
-- 762 Mio. t CO2 x 0.34 =
+- 762 Mio. t CO2 x 0.34 = 259.08 Mio. t CO2
 
 Anteile der CO2-neutralen Energieerzeuger:
 - Windkraft: 25%
