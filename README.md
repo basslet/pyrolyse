@@ -87,3 +87,8 @@ Insgesamt bleibt der in der Pflanzenkohle gebundene Kohlenstoff stabil, solange 
 
 Forschungen zeigen, dass Biochar Kohlenstoff im Boden über Jahrhunderte hinweg speichern kann. Theoretisch könnte, wenn die gesamte von der Landwirtschaft weltweit erzeugte Biomasse in Biochar umgewandelt würde, maximal eine Milliarde metrische Tonnen Kohlenstoff jährlich gespeichert werden, von denen drei Viertel auch nach 100 Jahren noch gebunden bleiben würden. Diese Menge könnte etwa 80% aller Treibhausgasemissionen aus der Landwirtschaft ausgleichen. Auch wenn man Einschränkungen wie nachhaltige Erntemethoden und konkurrierende Verwendungszwecke für Biomasse berücksichtigt, liegt das globale Produktionspotenzial für Biochar immer noch bei etwa der Hälfte dieses Betrags.
 https://www.researchgate.net/publication/377231327_Unlocking_the_Benefits_of_Carbon_Sequestration_for_Enhancing_Soil_Health
+
+## How to run
+- `pyenv virtualenv marimo` (or create virtual environment with a method of your choice)
+- `pip install -r requirements.txt`
+- `marimo edit code/berechnung_notebook.py`
