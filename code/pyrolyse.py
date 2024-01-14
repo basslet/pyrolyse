@@ -24,8 +24,34 @@ class helper:
         umrechnungsfaktor_c_zu_co2 = molekulargewicht_co2 / molekulargewicht_c
         return umrechnungsfaktor_c_zu_co2
 # ------------------------------------------------------------------------------------
+    def amortisation(strom_eur,
+                        waerme_eur,
+                        pflanzenkohle_eur,
+                        co2_zertifikat_eur, anlage):
+        lines = []
+        anlage.anzahl_anlagen = 1
+        zeitraum_in_h = h.stunden_pro_jahr
+        strom_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False) * strom_eur
+        waerme_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, strom=False) * waerme_eur
+        pflanzenkohle_ertrag = anlage.pflanzenkohle_in_kg(zeitraum_in_h) * pflanzenkohle_eur
+        co2_zertifikat_ertrag = anlage.gebundener_kohlenstoff(zeitraum_in_h)*h.umrechnungsfaktor_c_zu_co2() * co2_zertifikat_eur
+        fte = 2*-50000
+        biomasse = -700*52*(anlage.eingangsmasse_pro_h/295)
+        einnahmen = strom_ertrag + waerme_ertrag + pflanzenkohle_ertrag + co2_zertifikat_ertrag
 
-
+        lines.append(f'## {anlage.anlagen_name} Amortisation über 1 Jahr ##' )
+        lines.append('|| pro Jahr | Basis |')
+        lines.append('|---|---|---|')
+        lines.append('| Strom |' + h.smart_format(strom_ertrag, f'EUR | {strom_eur} EUR/kWh | ') )
+        lines.append('| Wärme |' + h.smart_format(waerme_ertrag, f'EUR | {waerme_eur} EUR/kWh |') )
+        lines.append('| Pflanzenkohle |' + h.smart_format(pflanzenkohle_ertrag, f'EUR | {pflanzenkohle_eur} EUR/kg |') )
+        lines.append('| CO2 Zertifikate |' + h.smart_format(co2_zertifikat_ertrag, f'EUR | {co2_zertifikat_eur} EUR/kg |'))
+        lines.append('| 2 FTE Mitarbeiter |' + h.smart_format(fte, "EUR") + '| |')
+        lines.append('| Biomasse |' + h.smart_format(biomasse, "EUR") + '| 700EUR/Woche/295kg/h|')
+        lines.append('| **Einnahmen** |' + h.smart_format(einnahmen, 'EUR') +  '| |' )
+        lines.append('| **Amortisation** |' +h.smart_format(einnahmen+fte+biomasse, 'EUR') + '| |' )
+        return '\n'.join(lines)
+# ------------------------------------------------------------------------------------
 
 class EnergieTraeger:
     def __init__(self, energie_gehalt, kohlenstoff_gehalt, dichte_kg_pro_kubikmeter, zuwachsrate, name=""):
@@ -119,6 +145,7 @@ class EnergieGewinnung:
         return flaeche * self.anzahl_anlagen
 
     def bericht(self, zeitraum_in_h=1):
+        lines = []
         if zeitraum_in_h >= h.stunden_pro_jahr:
             zeitraum_string = h.smart_format(zeitraum_in_h / h.stunden_pro_jahr, 'Jahr(e)')
         elif zeitraum_in_h >= h.stunden_pro_woche:
@@ -128,25 +155,24 @@ class EnergieGewinnung:
         else:
             zeitraum_string = h.smart_format(zeitraum_in_h, 'Stunde(n)')
 
-        print(f'## {self.anzahl_anlagen} {self.anlagen_name} Anlage über {zeitraum_string} ##\n')
+        lines.append(f'## {self.anzahl_anlagen} {self.anlagen_name} Anlage über {zeitraum_string} ##\n')
 
         # Tabellenkopf
-        print('| | Summe |')
-        print('| --- | --- |')
+        lines.append('| | Summe |')
+        lines.append('| --- | --- |')
 
         # Tabelleninhalt
-        print(f'| Gesamtleistung | {h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h), "kWh Strom und Wärme, Nettoleistung")} |')
-        print(f'| Elektrische Nettoleistung | {h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False), "kWh")} |')
-        print(f'| Benötigte Forstfläche | {h.smart_format(self.benoetigte_flaeche(), "Hektar")} |')
-        print(f'| Benötigte Menge Holz | {h.smart_format(self.eingangsmasse_in_kg(zeitraum_in_h), "kg")} |')
-        print(f'| Kohlenstoff Emission | {h.smart_format(self.kohlenstoff_emission_in_kg(zeitraum_in_h), "kg")} |')
-        print(f'| CO2 Emission | {h.smart_format(self.co2_emission_in_kg(zeitraum_in_h), "kg")} |')
-        print(f'| Pflanzenkohle Erzeugung | {h.smart_format(self.pflanzenkohle_in_kg(zeitraum_in_h), "kg")} |')
-        print(f'| Kohlenstoff Bindung | {h.smart_format(self.gebundener_kohlenstoff(zeitraum_in_h), "kg")} |')
-        print(f'| CO2 Reduktion | {h.smart_format(self.gebundener_kohlenstoff(zeitraum_in_h) * h.umrechnungsfaktor_c_zu_co2(), "kg")} |')
-        print()
-
-
+        lines.append(f'| Gesamtleistung | {h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h), "kWh Strom und Wärme, Nettoleistung")} |')
+        lines.append(f'| Elektrische Nettoleistung | {h.smart_format(self.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False), "kWh")} |')
+        lines.append(f'| Benötigte Forstfläche | {h.smart_format(self.benoetigte_flaeche(), "Hektar")} |')
+        lines.append(f'| Benötigte Menge Holz | {h.smart_format(self.eingangsmasse_in_kg(zeitraum_in_h), "kg")} |')
+        lines.append(f'| Kohlenstoff Emission | {h.smart_format(self.kohlenstoff_emission_in_kg(zeitraum_in_h), "kg")} |')
+        lines.append(f'| CO2 Emission | {h.smart_format(self.co2_emission_in_kg(zeitraum_in_h), "kg")} |')
+        lines.append(f'| Pflanzenkohle Erzeugung | {h.smart_format(self.pflanzenkohle_in_kg(zeitraum_in_h), "kg")} |')
+        lines.append(f'| Kohlenstoff Bindung | {h.smart_format(self.gebundener_kohlenstoff(zeitraum_in_h), "kg")} |')
+        lines.append(f'| CO2 Reduktion | {h.smart_format(self.gebundener_kohlenstoff(zeitraum_in_h) * h.umrechnungsfaktor_c_zu_co2(), "kg")} |')
+        lines.append('')
+        return '\n'.join(lines)
 
 h = helper()
 
