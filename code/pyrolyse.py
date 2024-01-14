@@ -24,8 +24,34 @@ class helper:
         umrechnungsfaktor_c_zu_co2 = molekulargewicht_co2 / molekulargewicht_c
         return umrechnungsfaktor_c_zu_co2
 # ------------------------------------------------------------------------------------
+    def amortisation(strom_eur,
+                        waerme_eur,
+                        pflanzenkohle_eur,
+                        co2_zertifikat_eur, anlage):
+        lines = []
+        anlage.anzahl_anlagen = 1
+        zeitraum_in_h = h.stunden_pro_jahr
+        strom_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, waerme=False) * strom_eur
+        waerme_ertrag = anlage.ausgangsleistung_ueber_zeitraum(zeitraum_in_h, strom=False) * waerme_eur
+        pflanzenkohle_ertrag = anlage.pflanzenkohle_in_kg(zeitraum_in_h) * pflanzenkohle_eur
+        co2_zertifikat_ertrag = anlage.gebundener_kohlenstoff(zeitraum_in_h)*h.umrechnungsfaktor_c_zu_co2() * co2_zertifikat_eur
+        fte = 2*-50000
+        biomasse = -700*52*(anlage.eingangsmasse_pro_h/295)
+        einnahmen = strom_ertrag + waerme_ertrag + pflanzenkohle_ertrag + co2_zertifikat_ertrag
 
-
+        lines.append(f'## {anlage.anlagen_name} Amortisation über 1 Jahr ##' )
+        lines.append('|| pro Jahr | Basis |')
+        lines.append('|---|---|---|')
+        lines.append('| Strom |' + h.smart_format(strom_ertrag, f'EUR | {strom_eur} EUR/kWh | ') )
+        lines.append('| Wärme |' + h.smart_format(waerme_ertrag, f'EUR | {waerme_eur} EUR/kWh |') )
+        lines.append('| Pflanzenkohle |' + h.smart_format(pflanzenkohle_ertrag, f'EUR | {pflanzenkohle_eur} EUR/kg |') )
+        lines.append('| CO2 Zertifikate |' + h.smart_format(co2_zertifikat_ertrag, f'EUR | {co2_zertifikat_eur} EUR/kg |'))
+        lines.append('| 2 FTE Mitarbeiter |' + h.smart_format(fte, "EUR") + '| |')
+        lines.append('| Biomasse |' + h.smart_format(biomasse, "EUR") + '| 700EUR/Woche/295kg/h|')
+        lines.append('| **Einnahmen** |' + h.smart_format(einnahmen, 'EUR') +  '| |' )
+        lines.append('| **Amortisation** |' +h.smart_format(einnahmen+fte+biomasse, 'EUR') + '| |' )
+        return '\n'.join(lines)
+# ------------------------------------------------------------------------------------
 
 class EnergieTraeger:
     def __init__(self, energie_gehalt, kohlenstoff_gehalt, dichte_kg_pro_kubikmeter, zuwachsrate, name=""):
@@ -147,6 +173,7 @@ class EnergieGewinnung:
         lines.append(f'| CO2 Reduktion | {h.smart_format(self.gebundener_kohlenstoff(zeitraum_in_h) * h.umrechnungsfaktor_c_zu_co2(), "kg")} |')
         lines.append('')
         return '\n'.join(lines)
+
 h = helper()
 
 
