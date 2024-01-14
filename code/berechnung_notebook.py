@@ -14,27 +14,37 @@ def __(mo):
     co2_zertifikat_eur_slider = mo.ui.slider(
         value=0.05, start=0, stop=0.5, step=0.01
     )
-
-    mo.md(
-        f"""
-        Strom Euro pro kWh : {strom_eur_slider} 
-
-        Wärme Euro pro kwh : {waerme_eur_slider}
-
-        Pflanzenkohle Euro pro kg: {pflanzenkohle_eur_slider} 70% Marge und Steuer
-
-        CO2 Zertifikat Euro pro kg: {co2_zertifikat_eur_slider}
-
-        - Der Preis für CO2-Zertifikate in Europa, die im Rahmen des EU-Emissionshandelssystems (EU ETS) gehandelt werden, variiert ständig, ähnlich wie Aktienkurse. Zum Stand meines letzten Trainings im April 2023 lagen die Preise für CO2-Zertifikate in der Regel zwischen 50 und 90 Euro pro Tonne CO2. Es ist jedoch wichtig zu beachten, dass diese Preise Schwankungen unterliegen, basierend auf Marktdynamiken, politischen Entscheidungen und anderen Faktoren.
-        - Statista: Während der Preis für ein CO2-Zertifikat im EU Emissions Trading System (EU-ETS) in 2007 noch durchschnittlich bei etwa 0,70 Euro lag, stieg er bis 2022² auf durchschnittlich ca. 81 Euro an.
-        """
-    )
     return (
         co2_zertifikat_eur_slider,
         pflanzenkohle_eur_slider,
         strom_eur_slider,
         waerme_eur_slider,
     )
+
+
+@app.cell
+def __(
+    co2_zertifikat_eur_slider,
+    mo,
+    pflanzenkohle_eur_slider,
+    strom_eur_slider,
+    waerme_eur_slider,
+):
+    mo.md(
+        f"""
+        Strom : {strom_eur_slider} {strom_eur_slider.value} Euro pro kWh 
+
+        Wärme : {waerme_eur_slider} {waerme_eur_slider.value} Euro pro kwh 
+
+        Pflanzenkohle : {pflanzenkohle_eur_slider} {pflanzenkohle_eur_slider.value} Euro pro kg - 70% Marge und Steuer
+
+        CO2 Zertifikat : {co2_zertifikat_eur_slider} {co2_zertifikat_eur_slider.value} Euro pro kg
+
+        - Der Preis für CO2-Zertifikate in Europa, die im Rahmen des EU-Emissionshandelssystems (EU ETS) gehandelt werden, variiert ständig, ähnlich wie Aktienkurse. Zum Stand meines letzten Trainings im April 2023 lagen die Preise für CO2-Zertifikate in der Regel zwischen 50 und 90 Euro pro Tonne CO2. Es ist jedoch wichtig zu beachten, dass diese Preise Schwankungen unterliegen, basierend auf Marktdynamiken, politischen Entscheidungen und anderen Faktoren.
+        - Statista: Während der Preis für ein CO2-Zertifikat im EU Emissions Trading System (EU-ETS) in 2007 noch durchschnittlich bei etwa 0,70 Euro lag, stieg er bis 2022² auf durchschnittlich ca. 81 Euro an.
+        """
+    )
+    return
 
 
 @app.cell(hide_code=True)
