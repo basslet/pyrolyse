@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.1.76"
-app = marimo.App()
+app = marimo.App(width="full")
 
 
 @app.cell
@@ -109,42 +109,76 @@ def __(clinx150, copy, h, mo):
     return clinx150_1000,
 
 
-@app.cell
-def __():
-    strom_eur = 0.08 # pro kWh
-    waerme_eur = 0.08 # pro kWh
-    pflanzenkohle_eur = 0.1 * 0.3 # 1 EUR pro kg, 70% Marge und Steuer
-    co2_zertifikat_eur = 0.05 # 0.05 EUR pro kg
-    # Der Preis für CO2-Zertifikate in Europa, die im Rahmen des EU-Emissionshandelssystems (EU ETS) gehandelt werden, variiert ständig, ähnlich wie Aktienkurse. Zum Stand meines letzten Trainings im April 2023 lagen die Preise für CO2-Zertifikate in der Regel zwischen 50 und 90 Euro pro Tonne CO2. Es ist jedoch wichtig zu beachten, dass diese Preise Schwankungen unterliegen, basierend auf Marktdynamiken, politischen Entscheidungen und anderen Faktoren.
-    # Statista: Während der Preis für ein CO2-Zertifikat im EU Emissions Trading System (EU-ETS) in 2007 noch durchschnittlich bei etwa 0,70 Euro lag, stieg er bis 2022² auf durchschnittlich ca. 81 Euro an.
-    return co2_zertifikat_eur, pflanzenkohle_eur, strom_eur, waerme_eur
+@app.cell(hide_code=True)
+def __(mo):
+    strom_eur_slider = mo.ui.slider(value=0.08, start=0, stop= 0.25, step=0.01)
+    waerme_eur_slider = mo.ui.slider(value=0.08, start=0, stop= 0.25, step=0.01)
+    pflanzenkohle_eur_slider = mo.ui.slider(value=0.1*0.3, start=0, stop= 2.0, step=0.1)
+    co2_zertifikat_eur_slider = mo.ui.slider(value=0.05, start=0, stop= 0.5, step=0.01)
+
+    mo.md(
+        f"""
+        Strom Euro pro kWh : {strom_eur_slider} 
+
+        Wärme Euro pro kwh : {waerme_eur_slider}
+
+        Pflanzenkohle Euro pro kg: {pflanzenkohle_eur_slider} 70% Marge und Steuer
+
+        CO2 Zertifikat Euro pro kg: {co2_zertifikat_eur_slider}
+
+        - Der Preis für CO2-Zertifikate in Europa, die im Rahmen des EU-Emissionshandelssystems (EU ETS) gehandelt werden, variiert ständig, ähnlich wie Aktienkurse. Zum Stand meines letzten Trainings im April 2023 lagen die Preise für CO2-Zertifikate in der Regel zwischen 50 und 90 Euro pro Tonne CO2. Es ist jedoch wichtig zu beachten, dass diese Preise Schwankungen unterliegen, basierend auf Marktdynamiken, politischen Entscheidungen und anderen Faktoren.
+        - Statista: Während der Preis für ein CO2-Zertifikat im EU Emissions Trading System (EU-ETS) in 2007 noch durchschnittlich bei etwa 0,70 Euro lag, stieg er bis 2022² auf durchschnittlich ca. 81 Euro an.
+        """
+    )
+    return (
+        co2_zertifikat_eur_slider,
+        pflanzenkohle_eur_slider,
+        strom_eur_slider,
+        waerme_eur_slider,
+    )
 
 
-@app.cell
+@app.cell(hide_code=True)
 def __(
     clinx50_1000,
-    co2_zertifikat_eur,
+    co2_zertifikat_eur_slider,
     helper,
     mo,
-    pflanzenkohle_eur,
-    strom_eur,
-    waerme_eur,
+    pflanzenkohle_eur_slider,
+    strom_eur_slider,
+    waerme_eur_slider,
 ):
-    mo.md(helper.amortisation(strom_eur, waerme_eur, pflanzenkohle_eur, co2_zertifikat_eur, clinx50_1000))
+    mo.md(
+        helper.amortisation(
+            strom_eur_slider.value,
+            waerme_eur_slider.value,
+            pflanzenkohle_eur_slider.value,
+            co2_zertifikat_eur_slider.value,
+            clinx50_1000
+        )
+    )
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def __(
     clinx150_1000,
-    co2_zertifikat_eur,
+    co2_zertifikat_eur_slider,
     helper,
     mo,
-    pflanzenkohle_eur,
-    strom_eur,
-    waerme_eur,
+    pflanzenkohle_eur_slider,
+    strom_eur_slider,
+    waerme_eur_slider,
 ):
-    mo.md(helper.amortisation(strom_eur, waerme_eur, pflanzenkohle_eur, co2_zertifikat_eur, clinx150_1000))
+    mo.md(
+        helper.amortisation(
+            strom_eur_slider.value,
+            waerme_eur_slider.value,
+            pflanzenkohle_eur_slider.value,
+            co2_zertifikat_eur_slider.value,
+            clinx150_1000
+        )
+    )
     return
 
 
