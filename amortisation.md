@@ -37,3 +37,9 @@ Wertschöpfung:
 | Biomasse | -47,135 EUR | 700EUR/Woche/295kg/h|
 | **Einnahmen** | 431,718 EUR | |
 | **Amortisation** | 284,583 EUR | |
+
+
+
+Weitere Informationen zu Emissions-Zertifikaten:
+- Pro Tonne reiner, trockener Pflanzenkohle können bis zu 3,6 Tonnen CO2-Äquivalente im Boden gespeichert werden. [link](https://www.carbon-twister.com/wirtschaftlichkeit/co2-zertifikate)
+- Es gibt eine ganze Reihe von Unternehmen am Markt, die CO2-Emittenten und Pflanzenkohleproduzenten zusammen bringen und vermitteln. Das Unternehmen, das CO2 kompensieren möchte, schließt eine Partnerschaft mit dem Vermittler und zahlt einen Geldbetrag zur Kompensation des CO2-Ausstoßes. Dafür erhält er ein Zertifikat, mit dem er werben kann. Der Vermittler wiederum entlohnt den Produzenten der Pflanzenkohle. Für den Produzenten von Pflanzenkohle hat dies den Vorteil, dass er sich nicht selbst um die Akquise von Zertifikatsabnehmern kümmern muss und im besten Fall sogar eine langfristige Abnahme sichern kann. Solche Plattformen sind beispielsweise Carbon Future oder First Climate. [link](https://www.carbon-twister.com/wirtschaftlichkeit/co2-zertifikate)
